@@ -1,8 +1,8 @@
 title: Ecommerce Edge
 description: Tactical ecommerce and conversion strategies
 theme: minima
-baseurl: ""
-url: "https://ecommerceedge.io"
+baseurl: "/ecommerceedge"
+url: "https://siavashsed.github.io"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 show_excerpts: true
