@@ -1,151 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ecommerce Edge - Conversion Strategy for DTC Brands</title>
-<meta name="description" content="Proven conversion tactics and DTC strategy from a consultant who has worked with 50+ Shopify stores.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>siavashsed.github.io/ecommerceedge — Ecommerce Strategy</title>
+<meta name="description" content="Expert insights on ecommerce strategy">
+
+
+
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#ffffff;--bg2:#f8f8f8;--sur:#f0f0f0;
-  --pri:#f97316;--pri2:#ea580c;
-  --txt:#111111;--mut:#666666;--brd:#e5e5e5;
-  --fh:system-ui,sans-serif;--fb:system-ui,sans-serif;--fm:monospace;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.7}
-a{color:inherit;text-decoration:none}
-#g-top{background:#fff;border-bottom:2px solid var(--pri);padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:0;z-index:99;box-shadow:0 1px 8px rgba(0,0,0,.06)}
-#g-brand{font-size:20px;font-weight:800;color:var(--pri);letter-spacing:-0.5px}
-#g-nav{display:flex;gap:28px}#g-nav a{font-size:13px;color:var(--mut);font-weight:500;transition:color .2s}#g-nav a:hover{color:var(--pri)}
-#g-hero{background:var(--bg2);padding:64px 48px 52px;border-bottom:1px solid var(--brd)}
-#g-hero-cat{font-size:11px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:3px;margin-bottom:14px}
-#g-hero h1{font-size:clamp(24px,3.5vw,44px);font-weight:800;color:var(--txt);max-width:660px;line-height:1.15;margin-bottom:14px}
-#g-hero p{font-size:15px;color:var(--mut);max-width:540px;line-height:1.85}
-#g-articles{padding:52px 48px;max-width:1180px;margin:0 auto}
-#g-articles-hd{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--mut);margin-bottom:24px}
-#g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
-.gc-card{background:#fff;border:1px solid var(--brd);border-radius:10px;padding:24px 22px;display:flex;flex-direction:column;gap:8px;box-shadow:0 2px 8px rgba(0,0,0,.04);transition:box-shadow .2s,transform .15s}
-.gc-card:hover{box-shadow:0 6px 20px rgba(0,0,0,.1);transform:translateY(-2px)}
-.gc-tag{font-size:10px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:2px}
-.gc-card h3{font-size:16px;font-weight:700;line-height:1.35;color:var(--txt)}
-.gc-card p{font-size:13px;color:var(--mut);line-height:1.75;flex:1}
-.gc-foot{display:flex;justify-content:space-between;align-items:center;margin-top:4px}
-.gc-date{font-size:11px;color:var(--mut)}
-.gc-read{font-size:12px;font-weight:600;color:var(--pri)}
-#g-nl{background:var(--pri);padding:64px 48px;text-align:center}
-#g-nl h2{font-size:clamp(20px,2.5vw,30px);font-weight:800;color:#fff;margin-bottom:10px}
-#g-nl p{color:rgba(255,255,255,.8);font-size:15px;margin-bottom:24px}
-#g-nl-form{display:flex;gap:10px;max-width:420px;margin:0 auto}
-#g-nl-input{flex:1;border:none;border-radius:6px;padding:12px 16px;font-size:14px;outline:none}
-#g-nl-btn{background:#000;color:#fff;border:none;border-radius:6px;padding:12px 22px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .2s}
-#g-nl-btn:hover{opacity:.85}
-#g-nl-ok{color:#fff;font-size:15px;font-weight:600;padding:8px}
-#g-foot{background:var(--bg2);border-top:1px solid var(--brd);padding:24px 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
-#g-foot-copy{font-size:12px;color:var(--mut)}
-#g-foot-links{display:flex;gap:20px}#g-foot-links a{font-size:12px;color:var(--mut)}#g-foot-links a:hover{color:var(--pri)}
-@media(max-width:700px){#g-top{padding:0 16px}#g-hero{padding:40px 16px 32px}#g-articles{padding:36px 16px}#g-nl{padding:48px 16px}#g-nl-form{flex-direction:column}#g-foot{padding:20px 16px;flex-direction:column;text-align:center}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Georgia',serif;background:#ffffff;color:#111111;line-height:1.65;font-size:16px}
+a{color:#2563eb;text-decoration:none}
+a:hover{color:#1d4ed8}
+img{max-width:100%;display:block;height:auto}
+
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.hdr{background:#ffffff;border-bottom:1px solid #e2e5ea;padding:20px 0;text-align:center}
+.logo{font-size:28px;font-weight:800;color:#2563eb;display:block;margin-bottom:4px}
+.tagline{font-size:12px;color:#999;text-transform:uppercase;letter-spacing:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:24px;margin-top:40px}
 </style>
 </head>
 <body>
-
-<!-- nav -->
-<header id="g-top">
-  <div id="g-brand">Ecommerce Edge</div>
-  <nav id="g-nav"><a href="./">Home</a><a href="about.html">About</a></nav>
-</header>
-
-<!-- hero -->
-<section id="g-hero">
-  <div id="g-hero-cat">Ecommerce Strategy</div>
-  <h1>Conversion Strategy for DTC Brands</h1>
-  <p>Proven conversion tactics and DTC strategy from a consultant who has worked with 50+ Shopify stores.</p>
-</section>
-
-<!-- pexels-banner -->
-<!-- hero-banner -->
-<div id="pxl-wrap" style="width:100%;height:220px;overflow:hidden;position:relative;background:var(--bg2);border-bottom:1px solid var(--brd);">
-  <img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block;" alt="">
-  <a id="pxl-cred" href="https://www.pexels.com" target="_blank" rel="noopener" style="position:absolute;bottom:6px;right:10px;font-size:10px;color:rgba(255,255,255,.5);opacity:0;transition:opacity .6s;text-decoration:none;">Photo: Pexels</a>
+<div class="hdr">
+  <a href="/" class="logo">siavashsed.github.io/ecommerceedge</a>
+  <span class="tagline">Ecommerce Strategy</span>
 </div>
-
-<!-- about section -->
-<div style="background:#f8f8f8;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;padding:40px">
-  <div style="max-width:800px;margin:0 auto">
-    <div style="font-size:10px;color:#f97316;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px">// about this publication</div>
-    <div style="display:grid;grid-template-columns:60px 1fr;gap:20px;align-items:start;margin-bottom:24px">
-      <div style="width:56px;height:56px;border-radius:50%;background:#f97316;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:800;color:#000;flex-shrink:0;letter-spacing:-1px">NP</div>
-      <div>
-        <div style="font-size:16px;font-weight:700;color:#111111;margin-bottom:2px">Nina Patel</div>
-        <div style="font-size:12px;color:#f97316;margin-bottom:14px;font-weight:600">Ecommerce Consultant & DTC Specialist</div>
-        <p style="font-size:14px;color:#666666;line-height:1.85;margin-bottom:12px">I've consulted on over 50 Shopify stores and helped several DTC brands scale from six figures to eight. Most conversion problems come down to the same five or six mistakes - I've catalogued them all.</p>
-        <p style="font-size:14px;color:#666666;line-height:1.85">Ecommerce Edge is where I share the tactics, data, and frameworks that actually move conversion rates. No vanity metrics, no generic advice.</p>
-      </div>
-    </div>
-    <a href="about.html" style="display:inline-block;border:1px solid #f97316;color:#f97316;padding:8px 20px;border-radius:3px;font-size:12px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:1px;transition:all .2s">Full bio →</a>
+<div class="wrap">
+  <div style="margin:40px 0"><div style="background:url(https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center/cover;height:420px;border-radius:12px;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,transparent 60%)"></div><div style="position:absolute;bottom:0;left:0;right:0;padding:28px"><span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#2563eb">Ecommerce Strategy</span><br><a href="/dtc-post-purchase-upsells-strategy/" style="font-size:clamp(22px,4vw,34px);font-weight:700;color:#fff;line-height:1.2;display:block;margin:8px 0">How Top DTC Brands Turn the Thank-You Page Into a Revenue Machine</a><span style="font-size:13px;color:rgba(255,255,255,.7)">May 17, 2026</span></div></div></div>
+  <div class="grid"><div style="background:#f7f8fa;border:1px solid #e2e5ea;border-radius:10px;overflow:hidden">
+  <img src="https://images.pexels.com/photos/16675632/pexels-photo-16675632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="The Abandoned Cart Email Sequence That Consistently Recovers 15% of Lost Revenue" loading="lazy" style="width:100%;height:180px;object-fit:cover">
+  <div style="padding:18px">
+    <div style="font-size:11px;color:#999;margin-bottom:6px">May 16, 2026</div>
+    <a href="/abandoned-cart-email-sequence-recover-revenue/" style="font-size:16px;font-weight:700;color:#111111;line-height:1.3;display:block;margin-bottom:8px">The Abandoned Cart Email Sequence That Consistently Recovers 15% of Lost Revenue</a>
+    <p style="font-size:13px;color:#444;line-height:1.55;margin-bottom:12px">Nina Patel shares the exact abandoned cart email sequence structure that recovers 15% of lost carts ...</p>
+    <a href="/abandoned-cart-email-sequence-recover-revenue/" style="font-size:13px;font-weight:600;color:#2563eb">Read →</a>
   </div>
+</div><div style="background:#f7f8fa;border:1px solid #e2e5ea;border-radius:10px;overflow:hidden">
+  <img src="https://images.pexels.com/photos/5632407/pexels-photo-5632407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Product Page Elements That Kill Conversions (And Why Most Brands Miss Them)" loading="lazy" style="width:100%;height:180px;object-fit:cover">
+  <div style="padding:18px">
+    <div style="font-size:11px;color:#999;margin-bottom:6px">May 15, 2026</div>
+    <a href="/product-page-elements-kill-conversions/" style="font-size:16px;font-weight:700;color:#111111;line-height:1.3;display:block;margin-bottom:8px">Product Page Elements That Kill Conversions (And Why Most Brands Miss Them)</a>
+    <p style="font-size:13px;color:#444;line-height:1.55;margin-bottom:12px">Nina Patel breaks down the product page elements quietly destroying your conversion rate, with real ...</p>
+    <a href="/product-page-elements-kill-conversions/" style="font-size:13px;font-weight:600;color:#2563eb">Read →</a>
+  </div>
+</div><div style="background:#f7f8fa;border:1px solid #e2e5ea;border-radius:10px;overflow:hidden">
+  <img src="https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="How to Increase Your Shopify Conversion Rate Without Spending a Dollar on Ads" loading="lazy" style="width:100%;height:180px;object-fit:cover">
+  <div style="padding:18px">
+    <div style="font-size:11px;color:#999;margin-bottom:6px">May 15, 2026</div>
+    <a href="/shopify-conversion-rate-without-paid-ads/" style="font-size:16px;font-weight:700;color:#111111;line-height:1.3;display:block;margin-bottom:8px">How to Increase Your Shopify Conversion Rate Without Spending a Dollar on Ads</a>
+    <p style="font-size:13px;color:#444;line-height:1.55;margin-bottom:12px">Nina Patel shares tactical, experience-backed strategies to increase Shopify conversion rate without...</p>
+    <a href="/shopify-conversion-rate-without-paid-ads/" style="font-size:13px;font-weight:600;color:#2563eb">Read →</a>
+  </div>
+</div></div>
 </div>
-
-<!-- articles -->
-<section id="g-articles">
-  <div id="g-articles-hd">Latest Articles</div>
-  <div id="g-grid"></div>
-</section>
-
-<!-- newsletter -->
-<section id="g-nl">
-  <h2>The Conversion Weekly</h2>
-  <p>One tested ecommerce tactic, every week. Straight to the point.</p>
-  <form id="g-nl-form" onsubmit="nlSub(event)">
-    <input type="email" id="g-nl-input" placeholder="Enter your email" required>
-    <button type="submit" id="g-nl-btn">Subscribe</button>
-  </form>
-</section>
-
-<!-- footer -->
-<footer id="g-foot">
-  <span id="g-foot-copy">© Ecommerce Edge · Ecommerce conversion strategy and DTC brand consulting insights.</span>
-  <div id="g-foot-links"><a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a></div>
-</footer>
-
-<script>
-/* load articles grid */
-async function loadPosts(){
-  const el=document.getElementById('g-grid');
-  try{
-    const r=await fetch('./articles.json');if(!r.ok)throw 0;
-    const posts=await r.json();if(!posts.length)throw 0;
-    el.innerHTML=posts.slice(0,9).map(p=>`<div class="gc-card" style="padding:0;overflow:hidden;">
-      ${p.image?`<a href="./${p.slug||'#'}/"><img src="${p.image}" alt="${p.title}" style="width:100%;height:160px;object-fit:cover;display:block;"></a>`:''}
-      <div style="padding:18px 20px;">
-        <div class="gc-tag">Ecommerce Strategy</div>
-        <h3>${p.title}</h3>
-        <p>${p.meta_description||''}</p>
-        <div class="gc-foot"><span class="gc-date">${p.date_iso||''}</span><a class="gc-read" href="./${p.slug||'#'}/">Read →</a></div>
-      </div>
-    </div>`).join('');
-  }catch(e){
-    el.innerHTML='<div class="gc-card"><div class="gc-tag">Coming Soon</div><h3>Articles publishing soon</h3><p>Check back shortly.</p></div>';
-  }
-}
-function nlSub(e){e.preventDefault();document.getElementById('g-nl-form').innerHTML='<div id="g-nl-ok">✓ Thank you for subscribing!</div>';}
-loadPosts();
-/* banner loader: pexels → picsum fallback */
-(function(){
-  var el=document.getElementById('pxl-img');
-  var cr=document.getElementById('pxl-cred');
-  if(!el)return;
-  function showImg(src,cred){
-    el.onload=function(){el.style.opacity='1';if(cred&&cr){cr.textContent=cred;cr.style.opacity='1';}};
-    el.src=src;
-  }
-  var k=localStorage.getItem('pexelsKey');
-  if(k){
-    fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('online shopping ecommerce website store')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
-      .then(function(r){return r.json();}).then(function(d){
-        if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/251/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/251/1400/400','');});
-  }else{
-    showImg('https://picsum.photos/seed/251/1400/400','');
-  }
-})();
-</script>
-</body></html>
+<footer style="background:#f7f8fa;border-top:1px solid #e2e5ea;padding:40px 24px;text-align:center;font-size:13px;color:#999;margin-top:60px">
+<p>&copy; 2026 siavashsed.github.io/ecommerceedge &nbsp;&middot;&nbsp; Ecommerce Strategy</p>
+<p style="margin-top:6px;font-size:11px">For informational purposes only. Not financial or investment advice.</p>
+<p style="margin-top:6px;font-size:11px"><a href="/about/" style="color:#999">About</a> &nbsp;&middot;&nbsp; <a href="/contact/" style="color:#999">Contact</a> &nbsp;&middot;&nbsp; <a href="/privacy/" style="color:#999">Privacy Policy</a></p>
+</footer></body></html>
