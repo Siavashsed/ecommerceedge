@@ -2,301 +2,988 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ecommerce Edge - Conversion Strategy for DTC Brands</title>
-<meta name="description" content="Proven conversion tactics and DTC strategy from a consultant who has worked with 50+ Shopify stores.">
+<title>Ecommerce Edge  -  DTC Strategy, Tools &amp; Conversion Intelligence</title>
+<meta name="description" content="Data-driven ecommerce strategy for DTC brands. Conversion optimization, ad profitability tools, and scaling playbooks from a Shopify Plus consultant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js" defer></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#ffffff;--bg2:#f8f8f8;--sur:#f0f0f0;
-  --pri:#f97316;--pri2:#ea580c;
-  --txt:#111111;--mut:#666666;--brd:#e5e5e5;
-  --fh:system-ui,sans-serif;--fb:system-ui,sans-serif;--fm:monospace;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.7}
+html{scroll-behavior:smooth}
+:root{
+  --org:#f97316;--org2:#ea580c;--org3:#fed7aa;
+  --bg:#ffffff;--bg2:#fafafa;--bg3:#f4f4f5;
+  --txt:#111827;--txt2:#374151;--muted:#6b7280;
+  --brd:#e5e7eb;--brd2:#d1d5db;
+  --shadow:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);
+  --shadow-md:0 4px 12px rgba(0,0,0,.1);
+  --font:'Inter',system-ui,sans-serif;
+}
+body{background:var(--bg);color:var(--txt);font-family:var(--font);font-size:15px;line-height:1.65;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
-@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-@keyframes slideIn{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:translateX(0)}}
-@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .5s ease,transform .5s ease}.reveal.visible{opacity:1;transform:translateY(0)}
-/* nav */
-.gn{background:#fff;border-bottom:2px solid var(--pri);padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:64px;position:sticky;top:0;z-index:99;box-shadow:0 2px 16px rgba(0,0,0,.07)}
-.gn-logo{font-size:19px;font-weight:800;color:var(--pri);letter-spacing:-.5px}
-.gn-links{display:flex;gap:24px}.gn-links a{font-size:13px;color:var(--mut);font-weight:500;transition:color .2s;padding:4px 0;border-bottom:2px solid transparent}.gn-links a:hover{color:var(--pri);border-bottom-color:var(--pri)}
-.gn-cta{background:var(--pri);color:#fff;border:none;border-radius:6px;padding:9px 20px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;box-shadow:0 2px 8px rgba(249,115,22,.3)}.gn-cta:hover{background:var(--pri2);transform:translateY(-1px);box-shadow:0 4px 14px rgba(249,115,22,.4)}
-/* hero */
-.gh{background:linear-gradient(135deg,var(--bg2) 0%,#fff5f0 100%);border-bottom:1px solid var(--brd);padding:60px 48px 56px;animation:fadeUp .6s ease both}
-.gh-eyebrow{font-size:11px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:3px;margin-bottom:18px;display:flex;align-items:center;gap:8px}
-.gh-eyebrow::before{content:'';width:24px;height:2px;background:var(--pri);flex-shrink:0}
-.gh-h1{font-size:clamp(28px,3.8vw,50px);font-weight:800;line-height:1.1;color:var(--txt);max-width:560px;margin-bottom:16px}
-.gh-sub{font-size:16px;color:var(--mut);max-width:480px;line-height:1.9;margin-bottom:36px}
-.gh-grid{display:grid;grid-template-columns:1fr 340px;gap:24px;align-items:start}
-.gh-feat{display:flex;flex-direction:column;border-radius:12px;overflow:hidden;border:1px solid var(--brd);transition:box-shadow .25s,transform .25s;text-decoration:none;background:#fff}.gh-feat:hover{box-shadow:0 12px 40px rgba(249,115,22,.15);transform:translateY(-3px)}
-.gh-feat-img{width:100%;height:320px;object-fit:cover;display:block;background:linear-gradient(135deg,var(--sur),var(--brd))}
-.gh-feat-body{padding:22px 24px 24px;flex:1}
-.gh-feat-tag{font-size:10px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:2px;margin-bottom:10px}
-.gh-feat-title{font-size:20px;font-weight:800;line-height:1.3;color:var(--txt);margin-bottom:8px}
-.gh-feat-desc{font-size:13px;color:var(--mut);line-height:1.7;margin-bottom:12px}
-.gh-feat-meta{font-size:11px;color:var(--mut);display:flex;align-items:center;gap:6px}
-.gh-feat-meta::before{content:'';width:20px;height:1px;background:var(--pri);flex-shrink:0}
-.gh-side{display:flex;flex-direction:column;gap:12px}
-.gh-sub-art{display:flex;border:1px solid var(--brd);border-radius:10px;overflow:hidden;background:#fff;transition:box-shadow .2s,transform .2s;text-decoration:none;color:inherit}.gh-sub-art:hover{box-shadow:0 6px 20px rgba(249,115,22,.12);transform:translateY(-2px)}
-.gh-sub-img{width:88px;height:88px;object-fit:cover;flex-shrink:0;background:var(--sur)}
-.gh-sub-body{padding:10px 14px;flex:1}
-.gh-sub-tag{font-size:9px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:2px;margin-bottom:4px}
-.gh-sub-title{font-size:13px;font-weight:600;line-height:1.4;color:var(--txt)}
-.gh-sub-date{font-size:10px;color:var(--mut);margin-top:5px}
-/* topics */
-.gt{padding:20px 48px;background:#fff;border-bottom:1px solid var(--brd);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.gt-label{font-size:11px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:2px;flex-shrink:0;margin-right:4px}
-.gt-tag{font-size:12px;font-weight:600;color:var(--mut);background:var(--bg2);border:1px solid var(--brd);border-radius:100px;padding:5px 14px;transition:all .2s;cursor:pointer}.gt-tag:hover{background:var(--pri);color:#fff;border-color:var(--pri);transform:translateY(-1px)}
-/* value props */
-.gv{padding:52px 48px;background:var(--bg2);border-bottom:1px solid var(--brd)}
-.gv-label{font-size:11px;font-weight:700;color:var(--pri);text-transform:uppercase;letter-spacing:3px;margin-bottom:32px;text-align:center}
-.gv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1120px;margin:0 auto}
-.gv-card{border:1px solid var(--brd);border-radius:12px;padding:24px 20px;text-align:center;background:#fff;transition:all .25s;cursor:default}.gv-card:hover{border-color:var(--pri);box-shadow:0 8px 28px rgba(249,115,22,.12);transform:translateY(-3px)}
-.gv-icon{color:var(--pri);margin-bottom:14px;display:flex;align-items:center;justify-content:center}
-.gv-head{font-size:14px;font-weight:800;color:var(--txt);margin-bottom:8px}
-.gv-body{font-size:12px;color:var(--mut);line-height:1.7}
-/* daily quote */
-.gq{background:var(--pri);padding:52px 48px;position:relative;overflow:hidden}
-.gq::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:rgba(255,255,255,.06);border-radius:50%}
-.gq::after{content:'';position:absolute;bottom:-40px;left:20px;width:120px;height:120px;background:rgba(255,255,255,.04);border-radius:50%}
-.gq-inner{max-width:760px;margin:0 auto;position:relative;text-align:center}
-.gq-label{font-size:10px;font-weight:700;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:3px;margin-bottom:16px}
-.gq-icon{color:rgba(255,255,255,.3);margin-bottom:16px;display:flex;justify-content:center}
-.gq-text{font-size:clamp(17px,2.2vw,23px);font-weight:600;color:#fff;line-height:1.55;font-style:italic;margin-bottom:16px}
-.gq-attr{font-size:12px;color:rgba(255,255,255,.7);font-style:normal}
-/* pexels banner */
-/* articles */
-.gaa{padding:56px 48px;max-width:1240px;margin:0 auto}
-.gaa-hd{display:flex;align-items:center;gap:12px;margin-bottom:28px;padding-bottom:12px;border-bottom:2px solid var(--brd)}
-.gaa-hd-text{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:2px;color:var(--mut)}
-.gaa-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
-.gac{display:flex;flex-direction:column;background:#fff;border:1px solid var(--brd);border-radius:12px;overflow:hidden;transition:all .25s;text-decoration:none;color:inherit}.gac:hover{box-shadow:0 10px 32px rgba(0,0,0,.1);transform:translateY(-3px);border-color:var(--brd)}
-.gac-img{width:100%;height:185px;object-fit:cover;display:block;background:var(--sur);transition:transform .4s}.gac:hover .gac-img{transform:scale(1.03)}
-.gac-img-wrap{overflow:hidden;flex-shrink:0}
-.gac-body{padding:18px 20px 12px;flex:1;display:flex;flex-direction:column;gap:7px}
-.gac-tag{font-size:9px;font-weight:800;color:var(--pri);text-transform:uppercase;letter-spacing:2px}
-.gac-title{font-size:15px;font-weight:700;line-height:1.35;color:var(--txt)}
-.gac-desc{font-size:12px;color:var(--mut);line-height:1.7;flex:1}
-.gac-foot{padding:0 20px 16px;display:flex;justify-content:space-between;align-items:center}
-.gac-date{font-size:10px;color:var(--mut)}
-.gac-read{font-size:12px;font-weight:800;color:var(--pri);display:flex;align-items:center;gap:4px;transition:gap .15s}.gac:hover .gac-read{gap:7px}
-/* author strip */
-.gas{background:var(--bg2);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);padding:40px 48px}
-.gas-inner{max-width:760px;margin:0 auto;display:flex;gap:24px;align-items:center}
-.gas-avi{width:64px;height:64px;border-radius:50%;background:var(--pri);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;color:#fff;flex-shrink:0;box-shadow:0 4px 12px rgba(249,115,22,.3)}
-.gas-bio p{font-size:14px;color:var(--mut);line-height:1.75;margin-bottom:8px}
-.gas-link{font-size:13px;font-weight:700;color:var(--pri);border-bottom:2px solid transparent;transition:border-color .15s}.gas-link:hover{border-bottom-color:var(--pri)}
-/* newsletter */
-.gnl{background:linear-gradient(135deg,var(--pri) 0%,var(--pri2) 100%);padding:80px 48px;text-align:center;position:relative;overflow:hidden}
-.gnl::before{content:'';position:absolute;top:-80px;left:-80px;width:280px;height:280px;background:rgba(255,255,255,.07);border-radius:50%}
-.gnl::after{content:'';position:absolute;bottom:-60px;right:-40px;width:200px;height:200px;background:rgba(255,255,255,.05);border-radius:50%}
-.gnl-inner{position:relative}
-.gnl h2{font-size:clamp(22px,3vw,38px);font-weight:800;color:#fff;margin-bottom:10px}
-.gnl p{color:rgba(255,255,255,.88);font-size:15px;margin-bottom:32px}
-.gnl-form{display:flex;gap:10px;max-width:460px;margin:0 auto;background:rgba(255,255,255,.15);border-radius:10px;padding:6px;backdrop-filter:blur(4px)}
-.gnl-input{flex:1;border:none;border-radius:7px;padding:13px 16px;font-size:14px;outline:none;background:#fff;color:#111}
-.gnl-btn{background:#000;color:#fff;border:none;border-radius:7px;padding:13px 24px;font-size:14px;font-weight:800;cursor:pointer;white-space:nowrap;transition:all .2s}.gnl-btn:hover{background:#111;transform:translateY(-1px)}
-/* footer */
-.gft{background:var(--txt);padding:40px 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
-.gft-brand{font-size:16px;font-weight:800;color:var(--pri)}
-.gft-copy{font-size:11px;color:rgba(255,255,255,.4);margin-top:4px}
-.gft-links{display:flex;gap:20px}.gft-links a{font-size:12px;color:rgba(255,255,255,.5);transition:color .15s;text-decoration:none}.gft-links a:hover{color:#fff}
-/* mobile */
-@media(max-width:1024px){.gh-grid{grid-template-columns:1fr}.gv-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:768px){.gn{padding:0 16px}.gn-links{display:none}.gh{padding:36px 16px 32px}.gt{padding:14px 16px}.gv{padding:36px 16px}.gaa{padding:36px 16px}.gq{padding:40px 16px}.gas{padding:32px 16px}.gnl{padding:56px 16px}.gnl-form{flex-direction:column;background:none;padding:0}.gnl-input{border-radius:6px}.gft{padding:28px 16px;flex-direction:column;text-align:center}}
-@media(max-width:480px){.gv-grid{grid-template-columns:1fr}.gh-grid{grid-template-columns:1fr}}
+img{display:block;max-width:100%}
+
+/* ── TOP BAR ── */
+.topbar{background:var(--org);padding:8px 20px;display:flex;align-items:center;justify-content:center;gap:12px}
+.topbar-text{font-size:12px;font-weight:600;color:#fff;letter-spacing:.2px}
+.topbar-cta{font-size:11px;font-weight:700;color:var(--org);background:#fff;padding:3px 10px;border-radius:20px}
+
+/* ── NAV ── */
+.nav{background:#fff;border-bottom:1px solid var(--brd);position:sticky;top:0;z-index:100;box-shadow:var(--shadow)}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 20px;display:flex;align-items:center;height:62px;gap:0}
+.nav-logo{font-size:19px;font-weight:800;color:var(--org);margin-right:36px;flex-shrink:0;letter-spacing:-.5px}
+.nav-logo span{font-size:10px;color:var(--muted);font-weight:400;margin-left:4px;letter-spacing:.5px}
+.nav-links{display:flex;gap:0;height:100%;flex:1}
+.nav-links a{font-size:13px;font-weight:500;color:#6b7280;padding:0 14px;height:100%;display:flex;align-items:center;border-bottom:2px solid transparent;transition:all .2s;margin-bottom:-1px}
+.nav-links a:hover,.nav-links a.active{color:var(--org);border-bottom-color:var(--org)}
+.nav-right{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.nav-btn{font-size:12px;font-weight:700;color:#fff;background:var(--org);padding:7px 16px;border-radius:6px;transition:background .2s}
+.nav-btn:hover{background:var(--org2)}
+.nav-burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.nav-burger span{width:22px;height:2px;background:var(--txt);border-radius:1px;display:block}
+.nav-mobile{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--brd);flex-direction:column;z-index:99;box-shadow:var(--shadow-md)}
+.nav-mobile.open{display:flex}
+.nav-mobile a{font-size:14px;font-weight:500;color:var(--txt2);padding:14px 24px;border-bottom:1px solid var(--brd)}
+.nav-mobile a:hover{color:var(--org);background:#fff7ed}
+@media(max-width:768px){.nav-links,.nav-right .nav-btn{display:none}.nav-burger{display:flex}}
+
+/* ── HERO ── */
+.hero{background:linear-gradient(135deg,#fff7ed 0%,#ffffff 50%,#f0fdf4 100%);border-bottom:1px solid var(--brd);overflow:hidden;position:relative;padding:72px 20px 0}
+.hero::before{content:'';position:absolute;top:-80px;right:-80px;width:480px;height:480px;background:radial-gradient(circle,rgba(249,115,22,.1) 0%,transparent 70%);pointer-events:none}
+.hero-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 480px;gap:60px;align-items:end}
+.hero-content{padding-bottom:64px}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--org);background:#fff7ed;border:1px solid #fed7aa;padding:5px 12px;border-radius:20px;margin-bottom:20px;text-transform:uppercase;letter-spacing:.5px}
+.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--org);animation:pulse-dot 2s ease-in-out infinite}
+@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.7}}
+.hero-h1{font-size:clamp(32px,5vw,58px);font-weight:800;line-height:1.06;color:var(--txt);margin-bottom:18px;letter-spacing:-2px}
+.hero-h1 em{font-style:normal;color:var(--org)}
+.hero-desc{font-size:16px;color:var(--txt2);line-height:1.75;margin-bottom:32px;max-width:520px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.hero-cta{font-size:14px;font-weight:700;color:#fff;background:var(--org);padding:13px 26px;border-radius:8px;transition:background .2s;display:inline-block;box-shadow:0 4px 14px rgba(249,115,22,.35)}
+.hero-cta:hover{background:var(--org2)}
+.hero-cta-ghost{font-size:14px;font-weight:600;color:var(--org);border:1.5px solid #fed7aa;padding:12px 24px;border-radius:8px;transition:all .2s;display:inline-block}
+.hero-cta-ghost:hover{border-color:var(--org);background:#fff7ed}
+.hero-stats{display:flex;gap:0;flex-wrap:wrap}
+.hero-stat{padding:14px 20px;border-right:1px solid var(--brd);background:rgba(255,255,255,.7)}
+.hero-stat:first-child{border-left:1px solid var(--brd);border-radius:8px 0 0 8px}
+.hero-stat:last-child{border-radius:0 8px 8px 0}
+.hero-stat-val{font-size:22px;font-weight:800;color:var(--txt);letter-spacing:-1px}
+.hero-stat-lbl{font-size:11px;color:var(--muted);font-weight:500;margin-top:1px}
+/* Hero chart */
+.hero-chart-col{align-self:stretch;display:flex;flex-direction:column;justify-content:flex-end}
+.hero-chart-card{background:#fff;border:1px solid var(--brd);border-radius:12px 12px 0 0;padding:20px 20px 0;box-shadow:var(--shadow-md);min-height:320px;display:flex;flex-direction:column}
+.hcc-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.hcc-title{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.hcc-badge{font-size:11px;font-weight:700;color:#16a34a;background:#f0fdf4;border:1px solid #bbf7d0;padding:3px 9px;border-radius:20px}
+.hcc-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.hcc-m{background:var(--bg2);border-radius:8px;padding:10px 12px}
+.hcc-m-val{font-size:16px;font-weight:800;color:var(--txt);letter-spacing:-.5px}
+.hcc-m-lbl{font-size:10px;color:var(--muted);font-weight:500;margin-top:2px}
+.hcc-m-chg{font-size:10px;font-weight:700;color:#16a34a}
+canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius:0 0 4px 4px}
+
+/* ── VALUE PROPS ── */
+.vp{background:var(--bg3);border-bottom:1px solid var(--brd)}
+.vp-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.vp-item{padding:22px 24px;border-right:1px solid var(--brd);display:flex;align-items:flex-start;gap:12px}
+.vp-item:last-child{border-right:none}
+.vp-icon{width:36px;height:36px;flex-shrink:0;border-radius:8px;background:#fff7ed;border:1px solid #fed7aa;display:flex;align-items:center;justify-content:center;color:var(--org)}
+.vp-label{font-size:13px;font-weight:700;color:var(--txt);margin-bottom:3px}
+.vp-desc{font-size:12px;color:var(--muted);line-height:1.55}
+
+/* ── SECTION HEADERS ── */
+.sec-wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:28px;padding-bottom:14px;border-bottom:1px solid var(--brd);flex-wrap:wrap;gap:8px}
+.sec-title{font-size:18px;font-weight:800;color:var(--txt);letter-spacing:-.5px}
+.sec-title span{color:var(--org)}
+.sec-link{font-size:12px;font-weight:600;color:var(--org)}
+
+/* ── ARTICLES FEED ── */
+.feed-section{padding:56px 0}
+.feed-grid{display:grid;grid-template-columns:1fr 320px;gap:40px;align-items:start}
+.art-list{display:flex;flex-direction:column;gap:1px}
+.art-card{display:grid;grid-template-columns:180px 1fr;border:1px solid var(--brd);background:#fff;overflow:hidden;cursor:pointer;transition:box-shadow .2s,border-color .2s;margin-bottom:1px}
+.art-card:hover{border-color:var(--org);box-shadow:0 4px 16px rgba(249,115,22,.1)}
+.art-card-img{width:180px;height:130px;object-fit:cover;display:block;background:var(--bg3)}
+.art-card-body{padding:16px 20px;display:flex;flex-direction:column;gap:5px}
+.art-card-tag{font-size:10px;font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:1px}
+.art-card-title{font-size:15px;font-weight:700;color:var(--txt);line-height:1.3;transition:color .2s}
+.art-card:hover .art-card-title{color:var(--org)}
+.art-card-desc{font-size:12px;color:var(--muted);line-height:1.6;flex:1}
+.art-card-meta{font-size:11px;color:var(--muted)}
+.art-card-read{font-size:11px;font-weight:700;color:var(--org);margin-top:2px}
+/* skeleton */
+@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}
+.sk-card{border:1px solid var(--brd);background:#fff;margin-bottom:1px;display:grid;grid-template-columns:180px 1fr;pointer-events:none}
+.sk-img{width:180px;height:130px;background:linear-gradient(90deg,#f3f4f6 25%,#e5e7eb 50%,#f3f4f6 75%);background-size:200% 100%;animation:shimmer 1.8s ease-in-out infinite}
+.sk-body{padding:16px 20px;display:flex;flex-direction:column;gap:10px}
+.sk-line{height:12px;border-radius:3px;background:linear-gradient(90deg,#f3f4f6 25%,#e5e7eb 50%,#f3f4f6 75%);background-size:200% 100%;animation:shimmer 1.8s ease-in-out infinite}
+/* sidebar */
+.side-box{background:var(--bg2);border:1px solid var(--brd);border-radius:10px;overflow:hidden;margin-bottom:20px}
+.side-box-title{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;padding:14px 16px;border-bottom:1px solid var(--brd);background:#fff}
+.side-item{padding:12px 16px;border-bottom:1px solid var(--brd);display:grid;grid-template-columns:72px 1fr;gap:10px;cursor:pointer;transition:background .2s}
+.side-item:last-child{border-bottom:none}
+.side-item:hover{background:#fff7ed}
+.side-img{width:72px;height:50px;object-fit:cover;border-radius:4px;background:var(--bg3)}
+.side-title{font-size:12px;font-weight:600;color:var(--txt);line-height:1.35;margin-bottom:4px}
+.side-meta{font-size:10px;color:var(--muted)}
+.side-nl{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:20px}
+.side-nl h3{font-size:14px;font-weight:700;color:var(--txt);margin-bottom:6px}
+.side-nl p{font-size:12px;color:var(--txt2);margin-bottom:14px;line-height:1.6}
+.nl-inp{width:100%;border:1px solid var(--brd2);border-radius:6px;padding:9px 12px;font-size:13px;outline:none;margin-bottom:8px;font-family:var(--font);transition:border-color .2s}
+.nl-inp:focus{border-color:var(--org)}
+.nl-btn{width:100%;background:var(--org);color:#fff;border:none;padding:10px;font-size:12px;font-weight:700;font-family:var(--font);cursor:pointer;border-radius:6px}
+
+/* ── CALCULATORS ── */
+.calc-section{background:var(--bg3);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);padding:60px 0}
+.calc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--brd)}
+@media(max-width:900px){.calc-grid{grid-template-columns:1fr}}
+.calc-card{background:#fff;padding:28px 28px 24px}
+.calc-name{font-size:11px;font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:4px}
+.calc-subtitle{font-size:13px;font-weight:600;color:var(--txt);margin-bottom:18px}
+.calc-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.calc-row.full{grid-template-columns:1fr}
+.calc-lbl{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+.calc-inp{width:100%;border:1px solid var(--brd2);border-radius:6px;padding:9px 12px;font-size:13px;font-family:var(--font);outline:none;transition:border-color .2s;color:var(--txt)}
+.calc-inp:focus{border-color:var(--org);box-shadow:0 0 0 3px rgba(249,115,22,.1)}
+.calc-select{width:100%;border:1px solid var(--brd2);border-radius:6px;padding:9px 12px;font-size:13px;font-family:var(--font);outline:none;background:#fff;color:var(--txt);cursor:pointer}
+.calc-btn{background:var(--org);color:#fff;border:none;padding:11px 20px;font-size:12px;font-weight:700;font-family:var(--font);border-radius:6px;cursor:pointer;transition:background .2s;margin-top:6px}
+.calc-btn:hover{background:var(--org2)}
+.calc-result{margin-top:14px;padding:14px 16px;background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;display:none}
+.calc-result.show{display:block}
+.calc-res-row{display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #fde8c8}
+.calc-res-row:last-child{border-bottom:none;padding-top:8px;font-weight:700}
+.calc-res-lbl{font-size:11px;color:var(--muted);font-weight:500}
+.calc-res-val{font-size:14px;font-weight:700;color:var(--org)}
+.calc-res-val.good{color:#16a34a}
+.calc-res-val.warn{color:#d97706}
+.calc-res-val.bad{color:#dc2626}
+
+/* ── NEWSLETTER FULL ── */
+.nl-full{background:linear-gradient(135deg,var(--org) 0%,var(--org2) 100%);padding:72px 20px;text-align:center;position:relative;overflow:hidden}
+.nl-full::before{content:'';position:absolute;top:-60px;left:-60px;width:300px;height:300px;background:rgba(255,255,255,.07);border-radius:50%;pointer-events:none}
+.nl-full::after{content:'';position:absolute;bottom:-40px;right:-40px;width:200px;height:200px;background:rgba(255,255,255,.07);border-radius:50%;pointer-events:none}
+.nl-full-inner{position:relative;max-width:540px;margin:0 auto}
+.nl-full-kicker{font-size:11px;font-weight:700;color:rgba(255,255,255,.8);text-transform:uppercase;letter-spacing:2px;margin-bottom:14px}
+.nl-full-h2{font-size:clamp(26px,4vw,42px);font-weight:800;color:#fff;line-height:1.1;margin-bottom:12px;letter-spacing:-1px}
+.nl-full-sub{font-size:15px;color:rgba(255,255,255,.85);margin-bottom:28px;line-height:1.7}
+.nl-full-form{display:flex;max-width:440px;margin:0 auto 14px;border-radius:8px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.nl-full-form input{flex:1;background:#fff;border:none;padding:14px 18px;font-size:14px;font-family:var(--font);outline:none;min-width:0;color:var(--txt)}
+.nl-full-form button{background:var(--txt);color:#fff;border:none;padding:14px 22px;font-size:13px;font-weight:700;font-family:var(--font);cursor:pointer;white-space:nowrap;transition:background .2s}
+.nl-full-form button:hover{background:#374151}
+.nl-full-fine{font-size:11px;color:rgba(255,255,255,.6)}
+
+/* ── ABOUT ── */
+.about-section{padding:56px 20px;background:#fff;border-top:1px solid var(--brd)}
+.about-inner{max-width:860px;margin:0 auto;display:grid;grid-template-columns:100px 1fr;gap:32px;align-items:start}
+.about-avatar{width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,var(--org) 0%,var(--org2) 100%);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;flex-shrink:0;box-shadow:0 8px 24px rgba(249,115,22,.3)}
+.about-name{font-size:22px;font-weight:800;color:var(--txt);margin-bottom:3px;letter-spacing:-.5px}
+.about-role{font-size:12px;font-weight:600;color:var(--org);margin-bottom:14px;text-transform:uppercase;letter-spacing:.5px}
+.about-bio{font-size:14px;color:var(--txt2);line-height:1.85}
+.about-bio p+p{margin-top:10px}
+.about-link{display:inline-flex;align-items:center;gap:6px;margin-top:18px;font-size:13px;font-weight:700;color:var(--org);border:1.5px solid #fed7aa;padding:8px 18px;border-radius:6px;transition:all .2s}
+.about-link:hover{background:#fff7ed;border-color:var(--org)}
+
+/* ── DISCLAIMER ── */
+.disc{background:#f9fafb;border-top:1px solid var(--brd);padding:20px}
+.disc-inner{max-width:1280px;margin:0 auto;display:flex;gap:12px;align-items:flex-start}
+.disc-icon{color:#9ca3af;flex-shrink:0;margin-top:2px}
+.disc-text{font-size:11px;color:#9ca3af;line-height:1.7}
+.disc-text strong{color:#6b7280}
+
+/* ── FOOTER ── */
+.foot{background:#111827;padding:52px 20px 0}
+.foot-top{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:48px;padding-bottom:40px}
+.foot-brand{font-size:20px;font-weight:800;color:var(--org);margin-bottom:12px;letter-spacing:-.5px}
+.foot-about-text{font-size:12px;color:#9ca3af;line-height:1.75;margin-bottom:16px}
+.foot-author{display:flex;align-items:center;gap:10px;margin-top:4px}
+.foot-av{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--org),var(--org2));display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;flex-shrink:0}
+.foot-author-name{font-size:13px;font-weight:600;color:#e5e7eb}
+.foot-author-role{font-size:10px;color:#6b7280}
+.foot-col-title{font-size:10px;font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid #1f2937}
+.foot-col a{display:block;font-size:12px;color:#9ca3af;padding:5px 0;border-bottom:1px solid rgba(31,41,55,.5);transition:color .2s}
+.foot-col a:hover{color:#fff}
+.foot-bottom{border-top:1px solid #1f2937;padding:18px 0}
+.foot-bottom-inner{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.foot-copy{font-size:11px;color:#4b5563}
+.foot-links{display:flex;gap:18px}
+.foot-links a{font-size:11px;color:#4b5563;transition:color .2s}
+.foot-links a:hover{color:var(--org)}
+
+/* ── SCROLL REVEAL ── */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
+.reveal.visible{opacity:1;transform:none}
+#analysis,#tools{scroll-margin-top:70px}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;gap:40px}
+  .hero-chart-col{display:none}
+  .feed-grid{grid-template-columns:1fr;gap:32px}
+  .foot-top{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:768px){
+  .hero{padding:48px 20px 0}
+  .hero-content{padding-bottom:40px}
+  .vp-inner{grid-template-columns:repeat(2,1fr)}
+  .calc-grid{grid-template-columns:1fr}
+  .about-inner{grid-template-columns:1fr}
+  .about-avatar{display:none}
+  .art-card{grid-template-columns:1fr}
+  .art-card-img{width:100%;height:160px}
+  .foot-top{grid-template-columns:1fr;gap:24px;padding-bottom:28px}
+}
+@media(max-width:480px){
+  .hero-stats{flex-direction:column;gap:0}
+  .hero-stat{border-right:none;border-bottom:1px solid var(--brd)}
+  .hero-stat:first-child{border-radius:8px 8px 0 0}
+  .hero-stat:last-child{border-radius:0 0 8px 8px;border-bottom:none}
+  .vp-inner{grid-template-columns:1fr}
+  .nl-full-form{flex-direction:column;border-radius:8px;overflow:visible;box-shadow:none;gap:8px}
+  .nl-full-form input,.nl-full-form button{border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+}
+
+/* ── THREE.JS INTERACTIVE SECTION ── */
+.three-sec{background:linear-gradient(135deg,#111827 0%,#1f2937 100%);padding:72px 20px;overflow:hidden;position:relative}
+.three-sec::before{content:'';position:absolute;top:-100px;left:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(249,115,22,.15) 0%,transparent 70%);pointer-events:none}
+.three-wrap{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 520px;gap:60px;align-items:center}
+.three-content .sec-kicker{font-size:11px;font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:2px;margin-bottom:14px}
+.three-h2{font-size:clamp(28px,4vw,44px);font-weight:800;color:#f9fafb;line-height:1.1;margin-bottom:16px;letter-spacing:-1.5px}
+.three-h2 em{font-style:normal;color:var(--org)}
+.three-desc{font-size:15px;color:#9ca3af;line-height:1.75;margin-bottom:32px;max-width:440px}
+.three-legend{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tl-item{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:10px 14px}
+.tl-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.tl-label{font-size:13px;font-weight:600;color:#e5e7eb}
+.tl-val{font-size:11px;color:#6b7280;margin-top:1px}
+.three-canvas-wrap{height:420px;position:relative;cursor:grab;touch-action:none;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.07)}
+.three-canvas-wrap:active{cursor:grabbing}
+.three-canvas-wrap canvas{display:block;width:100%!important;height:100%!important}
+.three-hint{position:absolute;bottom:12px;right:14px;font-size:11px;color:#4b5563;pointer-events:none}
+@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}
+@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
 
-<nav class="gn">
-  <div class="gn-logo">Ecommerce Edge</div>
-  <div class="gn-links">
-    <a href="./">Home</a>
-    <a href="about.html">About</a>
-    <a href="#articles">Articles</a>
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="topbar-text">Free ecommerce tools inside  -  breakeven ROAS, profit margin, LTV calculators</span>
+  <a href="#tools" class="topbar-cta">Try Free →</a>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="./" class="nav-logo">Ecommerce Edge<span>DTC Intelligence</span></a>
+    <div class="nav-links">
+      <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" class="active">Home</a>
+      <a href="#analysis">Articles</a>
+      <a href="#tools">Calculators</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <div id="nav-date" style="font-size:11px;color:var(--muted)"></div>
+      <a href="#newsletter" class="nav-btn">Free Newsletter</a>
+      <button class="nav-burger" onclick="document.getElementById('nav-mobile').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
-  <button class="gn-cta" onclick="document.querySelector('.gnl').scrollIntoView({behavior:'smooth'})">Subscribe Free</button>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#analysis" onclick="document.getElementById('nav-mobile').classList.remove('open')">Articles</a>
+    <a href="#tools" onclick="document.getElementById('nav-mobile').classList.remove('open')">Calculators</a>
+    <a href="about.html">About</a>
+    <a href="#newsletter" onclick="document.getElementById('nav-mobile').classList.remove('open')">Free Newsletter</a>
+  </div>
 </nav>
 
-<section class="gh">
-  <div class="gh-eyebrow">Ecommerce Strategy</div>
-  <h1 class="gh-h1">Conversion Strategy for DTC Brands</h1>
-  <p class="gh-sub">Proven conversion tactics and DTC strategy from a consultant who has worked with 50+ Shopify stores.</p>
-  <div class="gh-grid">
-    <a id="gh-feat-link" href="#" class="gh-feat">
-      <div class="gac-img-wrap"><img id="gh-feat-img" class="gh-feat-img" src="" alt=""></div>
-      <div class="gh-feat-body">
-        <div class="gh-feat-tag">Ecommerce Strategy</div>
-        <div class="gh-feat-title" id="gh-feat-title">Loading featured article...</div>
-        <div class="gh-feat-desc" id="gh-feat-desc"></div>
-        <div class="gh-feat-meta" id="gh-feat-meta"></div>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="hero-badge-dot"></span>DTC Strategy &amp; Ecommerce Tools</div>
+      <h1 class="hero-h1" id="hero-title">Scale Your Store<br>With <em>Real Data.</em></h1>
+      <p class="hero-desc" id="hero-desc">Conversion playbooks, ad profitability tools, and DTC scaling frameworks from a Shopify Plus consultant who's launched and scaled 50+ stores.</p>
+      <div class="hero-actions">
+        <a class="hero-cta" id="hero-feat-link" href="#analysis">Browse Articles</a>
+        <a class="hero-cta-ghost" href="#tools">Free Calculators</a>
       </div>
-    </a>
-    <div class="gh-side" id="gh-side"></div>
-  </div>
-</section>
-
-<div class="gt">
-  <span class="gt-label">Topics</span>
-  <span class="gt-tag">Conversion Rate</span>
-  <span class="gt-tag">AOV Growth</span>
-  <span class="gt-tag">DTC Strategy</span>
-  <span class="gt-tag">Shopify CRO</span>
-  <span class="gt-tag">Email & SMS</span>
-  <span class="gt-tag">Analytics</span>
-  <span class="gt-tag">Checkout Optimization</span>
-  <span class="gt-tag">Customer Retention</span>
-</div>
-
-<section class="gv reveal">
-  <div class="gv-label">What You Get</div>
-  <div class="gv-grid">
-    <div class="gv-card">
-      <div class="gv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></div>
-      <div class="gv-head">Conversion Tactics</div>
-      <div class="gv-body">Checkout and product page strategies grounded in 50+ real store audits — not generic best-practice lists.</div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="hero-stat-val">50+</div><div class="hero-stat-lbl">Stores Scaled</div></div>
+        <div class="hero-stat"><div class="hero-stat-val">3.2×</div><div class="hero-stat-lbl">Avg ROAS Improvement</div></div>
+        <div class="hero-stat"><div class="hero-stat-val">+41%</div><div class="hero-stat-lbl">Avg CVR Lift</div></div>
+        <div class="hero-stat"><div class="hero-stat-val">Free</div><div class="hero-stat-lbl">Always</div></div>
+      </div>
     </div>
-    <div class="gv-card">
-      <div class="gv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
-      <div class="gv-head">AOV & Revenue</div>
-      <div class="gv-body">Bundling, upsell structures, and pricing frameworks that lift average order value without hurting CVR.</div>
-    </div>
-    <div class="gv-card">
-      <div class="gv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-      <div class="gv-head">DTC Strategy</div>
-      <div class="gv-body">The decisions that separate scaling DTC brands — from product-market fit signals to retention loops.</div>
-    </div>
-    <div class="gv-card">
-      <div class="gv-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-      <div class="gv-head">Analytics & Data</div>
-      <div class="gv-body">Metrics that actually predict revenue — not the vanity numbers most ecommerce dashboards show by default.</div>
+    <div class="hero-chart-col">
+      <div class="hero-chart-card">
+        <div class="hcc-head">
+          <div class="hcc-title">Store Performance</div>
+          <div class="hcc-badge">▲ +24.3% MoM</div>
+        </div>
+        <div class="hcc-metrics">
+          <div class="hcc-m"><div class="hcc-m-val" id="hm-rev">$84.2k</div><div class="hcc-m-lbl">Revenue</div><div class="hcc-m-chg">▲ 18%</div></div>
+          <div class="hcc-m"><div class="hcc-m-val" id="hm-roas">3.8×</div><div class="hcc-m-lbl">ROAS</div><div class="hcc-m-chg">▲ 0.4×</div></div>
+          <div class="hcc-m"><div class="hcc-m-val" id="hm-cvr">4.1%</div><div class="hcc-m-lbl">CVR</div><div class="hcc-m-chg">▲ 0.6%</div></div>
+        </div>
+        <canvas id="rev-canvas"></canvas>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="gq reveal">
-  <div class="gq-inner">
-    <div class="gq-label">Daily Insight</div>
-    <div class="gq-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M11.192 15.757c0-.88-.23-1.618-.69-2.217-.326-.412-.768-.683-1.327-.812-.55-.128-1.07-.137-1.54-.028-.16-.95.1-1.95.78-3 .53-.81 1.24-1.48 2.13-2.02L8.89 6c-1.49.9-2.66 2.1-3.5 3.6-.85 1.5-1.27 3.04-1.27 4.6 0 1.44.35 2.58 1.06 3.42.7.84 1.63 1.26 2.78 1.26.97 0 1.77-.3 2.4-.9.63-.6.94-1.38.94-2.34zm7.44 0c0-.88-.23-1.618-.69-2.217-.326-.42-.77-.692-1.327-.817-.56-.124-1.074-.13-1.54-.022-.16-.95.1-1.95.78-3 .53-.81 1.24-1.48 2.13-2.02l-1.65-1.67c-1.49.9-2.66 2.1-3.5 3.6-.85 1.5-1.27 3.04-1.27 4.6 0 1.44.35 2.58 1.06 3.42.7.84 1.63 1.26 2.78 1.26.97 0 1.77-.3 2.4-.9.63-.6.94-1.38.94-2.34z"/></svg></div>
-    <div class="gq-text" id="daily-insight-text">Loading today's insight...</div>
-    <div class="gq-attr">— Nina Patel, Ecommerce Edge</div>
-  </div>
-</section>
-
-<!-- hero-banner -->
-<div id="pxl-wrap" style="width:100%;height:200px;overflow:hidden;position:relative;background:var(--bg2);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);">
-  <img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block;" alt="">
-  <a id="pxl-cred" href="https://www.pexels.com" target="_blank" rel="noopener" style="position:absolute;bottom:6px;right:10px;font-size:10px;color:rgba(255,255,255,.5);opacity:0;transition:opacity .6s;text-decoration:none;">Photo: Pexels</a>
-</div>
-
-<section class="gaa reveal" id="articles">
-  <div class="gaa-hd">
-    <span class="gaa-hd-text">All Articles</span>
-  </div>
-  <div class="gaa-grid" id="gaa-grid"></div>
-</section>
-
-<div class="gas reveal">
-  <div class="gas-inner">
-    <div class="gas-avi">N</div>
-    <div class="gas-bio">
-      <div style="font-size:15px;font-weight:700;color:var(--txt);margin-bottom:4px">Nina Patel</div>
-      <div style="font-size:12px;color:var(--pri);font-weight:600;margin-bottom:8px">Ecommerce Consultant & DTC Specialist</div>
-      <p>I've consulted on over 50 Shopify stores and helped several DTC brands scale from six figures to eight. Most conversion problems come down to the same five or six mistakes - I've catalogued them all.</p>
-      <a href="about.html" class="gas-link">Full story →</a>
+<!-- VALUE PROPS -->
+<section class="vp reveal">
+  <div class="vp-inner">
+    <div class="vp-item">
+      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+      <div><div class="vp-label">Conversion-First Thinking</div><div class="vp-desc">Every article ties tactics to revenue  -  not just clicks or impressions</div></div>
+    </div>
+    <div class="vp-item">
+      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+      <div><div class="vp-label">Free Profit Calculators</div><div class="vp-desc">Breakeven ROAS, margin, LTV, and ad ROI tools  -  no signup required</div></div>
+    </div>
+    <div class="vp-item">
+      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+      <div><div class="vp-label">DTC-Native Playbooks</div><div class="vp-desc">Built for Shopify, Klaviyo, Meta Ads  -  real stack, real numbers</div></div>
+    </div>
+    <div class="vp-item">
+      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div><div class="vp-label">Independent &amp; Unsponsored</div><div class="vp-desc">No agency retainer, no affiliate pressure  -  just honest analysis</div></div>
     </div>
   </div>
-</div>
+</section>
 
-<section class="gnl">
-  <div class="gnl-inner">
-    <h2>The Conversion Weekly</h2>
-    <p>One tested ecommerce tactic, every week. Straight to the point.</p>
-    <form class="gnl-form" id="gnl-form" onsubmit="nlSub(event)">
-      <input type="email" class="gnl-input" placeholder="your@email.com" required>
-      <button type="submit" class="gnl-btn">Subscribe Free</button>
+<!-- THREE.JS INTERACTIVE -->
+<section class="three-sec">
+  <div class="three-wrap">
+    <div class="three-content">
+      <div class="sec-kicker">Ecommerce Growth Intelligence</div>
+      <h2 class="three-h2">Your Entire Store,<br><em>One System.</em></h2>
+      <p class="three-desc">From traffic acquisition to repeat purchase  -  every channel, every metric, working together. Drag the visualization to explore your growth levers.</p>
+      <div class="three-legend">
+        <div class="tl-item"><div class="tl-dot" style="background:#3b82f6"></div><div><div class="tl-label">Paid Ads</div><div class="tl-val">Meta + Google</div></div></div>
+        <div class="tl-item"><div class="tl-dot" style="background:#22c55e"></div><div><div class="tl-label">Email / SMS</div><div class="tl-val">Klaviyo flows</div></div></div>
+        <div class="tl-item"><div class="tl-dot" style="background:#a855f7"></div><div><div class="tl-label">SEO + Content</div><div class="tl-val">Organic traffic</div></div></div>
+        <div class="tl-item"><div class="tl-dot" style="background:#f43f5e"></div><div><div class="tl-label">Social / UGC</div><div class="tl-val">Community</div></div></div>
+      </div>
+    </div>
+    <div class="three-canvas-wrap" id="three-wrap">
+      <canvas id="three-canvas"></canvas>
+      <div class="three-hint">Drag to rotate</div>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section class="feed-section" id="analysis">
+  <div class="sec-wrap">
+    <div class="sec-head reveal">
+      <div class="sec-title">Latest <span>Articles</span></div>
+      <a href="#analysis" class="sec-link">View all →</a>
+    </div>
+    <div class="feed-grid">
+      <div>
+        <div id="main-feed">
+          <div class="sk-card"><div class="sk-img"></div><div class="sk-body"><div class="sk-line" style="width:85%"></div><div class="sk-line" style="width:60%"></div><div class="sk-line" style="width:70%;height:10px"></div></div></div>
+          <div class="sk-card"><div class="sk-img"></div><div class="sk-body"><div class="sk-line" style="width:78%"></div><div class="sk-line" style="width:55%"></div><div class="sk-line" style="width:65%;height:10px"></div></div></div>
+          <div class="sk-card"><div class="sk-img"></div><div class="sk-body"><div class="sk-line" style="width:90%"></div><div class="sk-line" style="width:65%"></div><div class="sk-line" style="width:72%;height:10px"></div></div></div>
+        </div>
+      </div>
+      <aside>
+        <div class="side-box">
+          <div class="side-box-title">Trending</div>
+          <div id="side-feed">
+            <div class="side-item" style="pointer-events:none"><div class="sk-img" style="width:72px;height:50px;border-radius:4px"></div><div><div class="sk-line" style="width:90%;margin-bottom:6px"></div><div class="sk-line" style="width:50%;height:9px"></div></div></div>
+            <div class="side-item" style="pointer-events:none"><div class="sk-img" style="width:72px;height:50px;border-radius:4px"></div><div><div class="sk-line" style="width:80%;margin-bottom:6px"></div><div class="sk-line" style="width:45%;height:9px"></div></div></div>
+          </div>
+        </div>
+        <div class="side-nl">
+          <h3>Weekly DTC Digest</h3>
+          <p>Conversion tactics, ad teardowns, and store metrics  -  one email per week.</p>
+          <form onsubmit="this.innerHTML='<p style=\'color:var(--org);font-size:13px;font-weight:700;padding:4px 0\'>You\'re in. Check your inbox.</p>';event.preventDefault()">
+            <input type="email" class="nl-inp" placeholder="your@email.com" required>
+            <button type="submit" class="nl-btn">Subscribe Free</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATORS -->
+<section class="calc-section reveal" id="tools">
+  <div class="sec-wrap">
+    <div class="sec-head" style="margin-bottom:32px">
+      <div class="sec-title">Ecommerce <span>Calculators</span></div>
+      <span style="font-size:12px;color:var(--muted)">Free · No signup · Instant results</span>
+    </div>
+    <div class="calc-grid">
+
+      <!-- 1. BREAKEVEN ROAS -->
+      <div class="calc-card">
+        <div class="calc-name">Calculator 1</div>
+        <div class="calc-subtitle">Breakeven ROAS  -  What ROAS do you need to profit?</div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Product Price ($)</div><input class="calc-inp" id="be-price" type="number" placeholder="79.00" value="79.00" step="0.01"></div>
+          <div><div class="calc-lbl">COGS per Unit ($)</div><input class="calc-inp" id="be-cogs" type="number" placeholder="22.00" value="22.00" step="0.01"></div>
+        </div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Shipping + Fulfillment ($)</div><input class="calc-inp" id="be-ship" type="number" placeholder="6.50" value="6.50" step="0.01"></div>
+          <div><div class="calc-lbl">Transaction Fee (%)</div><input class="calc-inp" id="be-fee" type="number" placeholder="2.9" value="2.9" step="0.1"></div>
+        </div>
+        <div class="calc-row full"><div class="calc-lbl">Other Variable Costs per Order ($)  -  returns, packaging, etc.</div><input class="calc-inp" id="be-other" type="number" placeholder="3.00" value="3.00" step="0.01"></div>
+        <button class="calc-btn" onclick="calcBERoas()">Calculate Breakeven ROAS</button>
+        <div class="calc-result" id="be-result">
+          <div class="calc-res-row"><span class="calc-res-lbl">Gross Margin</span><span class="calc-res-val" id="be-gm"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Contribution Margin</span><span class="calc-res-val" id="be-cm"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Breakeven ROAS</span><span class="calc-res-val" id="be-roas" style="font-size:18px"> - </span></div>
+        </div>
+      </div>
+
+      <!-- 2. PROFIT MARGIN CALCULATOR -->
+      <div class="calc-card">
+        <div class="calc-name">Calculator 2</div>
+        <div class="calc-subtitle">Ad Campaign Profit  -  Is your campaign actually making money?</div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Ad Spend ($)</div><input class="calc-inp" id="pm-spend" type="number" placeholder="5000" value="5000"></div>
+          <div><div class="calc-lbl">Revenue Generated ($)</div><input class="calc-inp" id="pm-rev" type="number" placeholder="18500" value="18500"></div>
+        </div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">COGS + Fulfillment (%)</div><input class="calc-inp" id="pm-cogs" type="number" placeholder="38" value="38" step="0.5"></div>
+          <div><div class="calc-lbl">Platform Fee (%)</div><input class="calc-inp" id="pm-fee" type="number" placeholder="2.9" value="2.9" step="0.1"></div>
+        </div>
+        <div class="calc-row full"><div class="calc-lbl">Other Overhead Attributed ($)  -  ops, tools, staff time</div><input class="calc-inp" id="pm-overhead" type="number" placeholder="800" value="800"></div>
+        <button class="calc-btn" onclick="calcProfit()">Calculate Campaign Profit</button>
+        <div class="calc-result" id="pm-result">
+          <div class="calc-res-row"><span class="calc-res-lbl">ROAS</span><span class="calc-res-val" id="pm-roas"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Gross Profit</span><span class="calc-res-val" id="pm-gp"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Net Profit</span><span class="calc-res-val" id="pm-np"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Net Margin</span><span class="calc-res-val" id="pm-nm"> - </span></div>
+        </div>
+      </div>
+
+      <!-- 3. CUSTOMER LTV -->
+      <div class="calc-card">
+        <div class="calc-name">Calculator 3</div>
+        <div class="calc-subtitle">Customer LTV  -  How much is a customer worth over their lifetime?</div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Average Order Value ($)</div><input class="calc-inp" id="ltv-aov" type="number" placeholder="85" value="85"></div>
+          <div><div class="calc-lbl">Orders per Year</div><input class="calc-inp" id="ltv-freq" type="number" placeholder="3.2" value="3.2" step="0.1"></div>
+        </div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Avg Customer Lifespan (yrs)</div><input class="calc-inp" id="ltv-life" type="number" placeholder="2.5" value="2.5" step="0.5"></div>
+          <div><div class="calc-lbl">Gross Margin (%)</div><input class="calc-inp" id="ltv-margin" type="number" placeholder="62" value="62" step="1"></div>
+        </div>
+        <div class="calc-row full"><div class="calc-lbl">Max Acceptable CAC Ratio (LTV : CAC target)</div>
+          <select class="calc-select" id="ltv-ratio"><option value="3">3:1 (industry standard)</option><option value="4">4:1 (healthy)</option><option value="5">5:1 (excellent)</option><option value="2">2:1 (aggressive)</option></select>
+        </div>
+        <button class="calc-btn" onclick="calcLTV()">Calculate LTV</button>
+        <div class="calc-result" id="ltv-result">
+          <div class="calc-res-row"><span class="calc-res-lbl">Revenue LTV</span><span class="calc-res-val" id="ltv-rev"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Gross Profit LTV</span><span class="calc-res-val" id="ltv-gp"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Max CAC to spend</span><span class="calc-res-val good" id="ltv-cac" style="font-size:17px"> - </span></div>
+        </div>
+      </div>
+
+      <!-- 4. AOV NEEDED TO SCALE -->
+      <div class="calc-card">
+        <div class="calc-name">Calculator 4</div>
+        <div class="calc-subtitle">AOV Needed to Hit Profit Target  -  reverse-engineer your pricing</div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Monthly Ad Spend ($)</div><input class="calc-inp" id="aov-spend" type="number" placeholder="8000" value="8000"></div>
+          <div><div class="calc-lbl">Target ROAS</div><input class="calc-inp" id="aov-roas" type="number" placeholder="4.0" value="4.0" step="0.1"></div>
+        </div>
+        <div class="calc-row">
+          <div><div class="calc-lbl">Expected Monthly Orders</div><input class="calc-inp" id="aov-orders" type="number" placeholder="240" value="240"></div>
+          <div><div class="calc-lbl">COGS + Fulfillment (%)</div><input class="calc-inp" id="aov-cogs" type="number" placeholder="40" value="40" step="1"></div>
+        </div>
+        <div class="calc-row full"><div class="calc-lbl">Monthly Target Net Profit ($)</div><input class="calc-inp" id="aov-target" type="number" placeholder="5000" value="5000"></div>
+        <button class="calc-btn" onclick="calcAOV()">Calculate Required AOV</button>
+        <div class="calc-result" id="aov-result">
+          <div class="calc-res-row"><span class="calc-res-lbl">Revenue Needed</span><span class="calc-res-val" id="aov-revneeded"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Required AOV</span><span class="calc-res-val" id="aov-needed" style="font-size:17px"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">AOV Gap from Target</span><span class="calc-res-val" id="aov-gap"> - </span></div>
+          <div class="calc-res-row"><span class="calc-res-lbl">Suggested Tactic</span><span class="calc-res-val" id="aov-tactic" style="font-size:11px;text-align:right;max-width:200px;line-height:1.4"> - </span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl-full" id="newsletter">
+  <div class="nl-full-inner">
+    <div class="nl-full-kicker">Free Weekly Newsletter</div>
+    <h2 class="nl-full-h2">The DTC Weekly Digest</h2>
+    <p class="nl-full-sub">Conversion teardowns, ad profitability breakdowns, and store scaling playbooks  -  one actionable email every week.</p>
+    <form class="nl-full-form" onsubmit="this.outerHTML='<p style=\'color:#fff;font-size:16px;font-weight:700;padding:16px 0\'>You\'re in. Check your inbox.</p>';event.preventDefault()">
+      <input type="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe Free →</button>
     </form>
+    <div class="nl-full-fine">No spam. Unsubscribe anytime. 100% free.</div>
   </div>
 </section>
 
-<footer class="gft">
-  <div>
-    <div class="gft-brand">Ecommerce Edge</div>
-    <div class="gft-copy">Ecommerce conversion strategy and DTC brand consulting insights.</div>
+<!-- ABOUT -->
+<section class="about-section">
+  <div class="about-inner">
+    <div class="about-avatar">NP</div>
+    <div>
+      <div class="about-name">Nina Patel</div>
+      <div class="about-role">Shopify Plus Consultant · DTC Growth Advisor</div>
+      <div class="about-bio">
+        <p>I've spent the last decade building and scaling DTC brands  -  from $0 to $1M, from $1M through $10M, and a few past $50M. I've been Shopify Plus Partner certified since 2019 and have consulted for brands across fashion, supplements, home goods, and pet products.</p>
+        <p>Ecommerce Edge is where I document what actually works: the conversion tests with real results, the ad structures that survived iOS 14.5, and the margin math that makes or breaks a DTC business. No sponsored posts. No agency fluff. Just numbers and tactics.</p>
+      </div>
+      <a href="about.html" class="about-link">Full bio &amp; methodology →</a>
+    </div>
   </div>
-  <div class="gft-links">
-    <a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a>
+</section>
+
+<!-- DISCLAIMER -->
+<div class="disc">
+  <div class="disc-inner">
+    <div class="disc-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+    <div class="disc-text"><strong>Disclaimer:</strong> All content on Ecommerce Edge is for informational and educational purposes only. Nothing here constitutes financial, investment, or business advice. Results vary based on product, market, and execution. The calculators are tools to aid decision-making  -  not guarantees of outcome. Always validate assumptions with your own data and consult qualified professionals before making significant business decisions.</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="foot">
+  <div class="foot-top">
+    <div>
+      <div class="foot-brand">Ecommerce Edge</div>
+      <div class="foot-about-text">Data-driven DTC strategy, ad profitability tools, and conversion playbooks from a Shopify Plus consultant. Independent, unsponsored, and always free.</div>
+      <div class="foot-author">
+        <div class="foot-av">NP</div>
+        <div><div class="foot-author-name">Nina Patel</div><div class="foot-author-role">Shopify Plus Consultant · DTC Advisor</div></div>
+      </div>
+    </div>
+    <div class="foot-col">
+      <div class="foot-col-title">Content</div>
+      <a href="#analysis">Latest Articles</a>
+      <a href="#tools">Free Calculators</a>
+      <a href="#newsletter">Newsletter</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="foot-col">
+      <div class="foot-col-title">Tools</div>
+      <a href="#tools">Breakeven ROAS</a>
+      <a href="#tools">Campaign Profit</a>
+      <a href="#tools">Customer LTV</a>
+      <a href="#tools">AOV Calculator</a>
+    </div>
+    <div class="foot-col">
+      <div class="foot-col-title">Legal</div>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="disclaimer.html">Disclaimer</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-bottom-inner">
+      <span class="foot-copy">© 2025 Ecommerce Edge · For informational purposes only. Not business or financial advice.</span>
+      <div class="foot-links">
+        <a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+      </div>
+    </div>
   </div>
 </footer>
 
 <script>
-const INSIGHTS=[
-  "Most stores lose 70% of cart abandoners and never email them back the same day. That's the easiest win in ecommerce.",
-  "Removing one unnecessary form field from checkout increases completion rate by an average of 4%. Audit yours this week.",
-  "80% of Shopify revenue typically comes from 20% of SKUs. Know yours before running any paid acquisition.",
-  "First-time customers who buy twice are 5x more likely to buy a third time. Your post-purchase flow determines which half they join.",
-  "Hero images with lifestyle context outperform product-only images in 80% of A/B tests. Show the product in use.",
-  "The average DTC brand spends 40% more acquiring customers than retaining them. That ratio should invert by year three.",
-  "Set your free shipping threshold 15–20% above your current AOV. Not 5%, not 50% — and test it every quarter.",
-  "Product page copy that addresses the top three objections before checkout outperforms generic 'buy now' pages by 2–3x.",
-  "Abandoned cart emails sent within one hour recover 3x more revenue than those sent 24 hours later.",
-  "Average mobile checkout abandonment is 85%. If you haven't audited your mobile experience this month, do it today.",
-  "Subscription products with a 'pause' option have 40% lower churn than those with only a cancel option.",
-  "Add social proof closest to the primary CTA — not in the header, not in the footer. Proximity matters.",
-  "A 5% increase in customer retention produces more than a 25% increase in profit, on average.",
-  "Post-purchase upsells convert at 3–5x the rate of pre-checkout upsells. Most stores haven't implemented either.",
-];
-const d=new Date();const idx=(d.getFullYear()*366+d.getMonth()*31+d.getDate())%INSIGHTS.length;
-const el=document.getElementById('daily-insight-text');if(el)el.textContent=INSIGHTS[idx];
+// ── INIT ──────────────────────────────────────────────────────────────────
+var _nd=document.getElementById('nav-date');
+if(_nd)_nd.textContent=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
 
+// ── HERO REVENUE CHART ────────────────────────────────────────────────────
+(function(){
+  var canvas=document.getElementById('rev-canvas');
+  if(!canvas)return;
+  var ctx=canvas.getContext('2d');
+  var data=[];
+  var rev=52000;
+  function gen(){
+    rev=Math.max(30000,Math.min(120000,rev*(1+(Math.random()-.38)*0.12)));
+    return Math.round(rev);
+  }
+  for(var i=0;i<24;i++)data.push(gen());
+
+  function draw(){
+    var W=canvas.offsetWidth, H=canvas.offsetHeight||160;
+    if(!W||!H)return;
+    canvas.width=W; canvas.height=H;
+    var pL=8,pR=8,pT=12,pB=24;
+    var cW=W-pL-pR, cH=H-pT-pB;
+    var mn=Math.min.apply(null,data)*0.95;
+    var mx=Math.max.apply(null,data)*1.05;
+    var range=mx-mn||1;
+    var slot=cW/(data.length-1);
+
+    function py(v){return pT+cH-((v-mn)/range)*cH;}
+
+    ctx.clearRect(0,0,W,H);
+
+    // Fill gradient
+    var grad=ctx.createLinearGradient(0,pT,0,H);
+    grad.addColorStop(0,'rgba(249,115,22,.18)');
+    grad.addColorStop(1,'rgba(249,115,22,.01)');
+    ctx.beginPath();
+    ctx.moveTo(pL,py(data[0]));
+    for(var i=1;i<data.length;i++){
+      var x0=pL+(i-1)*slot, y0=py(data[i-1]);
+      var x1=pL+i*slot, y1=py(data[i]);
+      var cpx=(x0+x1)/2;
+      ctx.bezierCurveTo(cpx,y0,cpx,y1,x1,y1);
+    }
+    ctx.lineTo(pL+cW,pT+cH); ctx.lineTo(pL,pT+cH); ctx.closePath();
+    ctx.fillStyle=grad; ctx.fill();
+
+    // Line
+    ctx.beginPath();
+    ctx.moveTo(pL,py(data[0]));
+    for(var i=1;i<data.length;i++){
+      var x0=pL+(i-1)*slot, y0=py(data[i-1]);
+      var x1=pL+i*slot, y1=py(data[i]);
+      ctx.bezierCurveTo((x0+x1)/2,y0,(x0+x1)/2,y1,x1,y1);
+    }
+    ctx.strokeStyle='#f97316'; ctx.lineWidth=2.5; ctx.stroke();
+
+    // Dot at last point
+    var lx=pL+cW, ly=py(data[data.length-1]);
+    ctx.beginPath(); ctx.arc(lx,ly,4,0,Math.PI*2);
+    ctx.fillStyle='#f97316'; ctx.fill();
+    ctx.beginPath(); ctx.arc(lx,ly,7,0,Math.PI*2);
+    ctx.strokeStyle='rgba(249,115,22,.25)'; ctx.lineWidth=2; ctx.stroke();
+
+    // Month labels
+    var months=['J','F','M','A','M','J','J','A','S','O','N','D'];
+    var step=Math.ceil(data.length/6);
+    for(var i=0;i<data.length;i+=step){
+      ctx.fillStyle='#d1d5db'; ctx.font='9px system-ui,sans-serif'; ctx.textAlign='center';
+      ctx.fillText(months[i%12]||'', pL+i*slot, H-6);
+    }
+  }
+
+  function resize(){draw();}
+  resize();
+  window.addEventListener('resize',resize);
+  setInterval(function(){
+    data.push(gen()); if(data.length>24)data.shift();
+    draw();
+  },3500);
+})();
+
+// ── CALCULATORS ──────────────────────────────────────────────────────────
+function fmtD(v){return '$'+v.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',');}
+function fmtK(v){return v>=1000?'$'+(v/1000).toFixed(1)+'k':'$'+Math.round(v);}
+function showR(id){document.getElementById(id).classList.add('show');}
+function colorVal(el,v,goodAbove,warnAbove){
+  el.className='calc-res-val'+(v>=goodAbove?' good':v>=warnAbove?' warn':' bad');
+}
+
+function calcBERoas(){
+  var price=parseFloat(document.getElementById('be-price').value)||0;
+  var cogs=parseFloat(document.getElementById('be-cogs').value)||0;
+  var ship=parseFloat(document.getElementById('be-ship').value)||0;
+  var fee=parseFloat(document.getElementById('be-fee').value)||0;
+  var other=parseFloat(document.getElementById('be-other').value)||0;
+  if(!price)return;
+  var txFee=price*(fee/100);
+  var totalCost=cogs+ship+txFee+other;
+  var grossMargin=((price-cogs)/price)*100;
+  var contribMargin=((price-totalCost)/price)*100;
+  var beRoas=contribMargin>0?(100/contribMargin):null;
+  document.getElementById('be-gm').textContent=grossMargin.toFixed(1)+'%';
+  document.getElementById('be-cm').textContent=contribMargin.toFixed(1)+'%  ('+fmtD(price-totalCost)+'/unit)';
+  var roasEl=document.getElementById('be-roas');
+  roasEl.textContent=beRoas?beRoas.toFixed(2)+'×':'N/A  -  costs exceed price';
+  colorVal(roasEl,beRoas?100/beRoas:0,40,25);
+  showR('be-result');
+}
+
+function calcProfit(){
+  var spend=parseFloat(document.getElementById('pm-spend').value)||0;
+  var rev=parseFloat(document.getElementById('pm-rev').value)||0;
+  var cogsPct=parseFloat(document.getElementById('pm-cogs').value)||0;
+  var feePct=parseFloat(document.getElementById('pm-fee').value)||0;
+  var overhead=parseFloat(document.getElementById('pm-overhead').value)||0;
+  if(!spend||!rev)return;
+  var roas=rev/spend;
+  var cogsAmt=rev*(cogsPct/100);
+  var feeAmt=rev*(feePct/100);
+  var grossProfit=rev-cogsAmt-feeAmt;
+  var netProfit=grossProfit-spend-overhead;
+  var netMargin=(netProfit/rev)*100;
+  var roasEl=document.getElementById('pm-roas');
+  roasEl.textContent=roas.toFixed(2)+'×';
+  colorVal(roasEl,roas,4,2.5);
+  document.getElementById('pm-gp').textContent=fmtD(grossProfit)+' ('+((grossProfit/rev)*100).toFixed(1)+'%)';
+  var npEl=document.getElementById('pm-np');
+  npEl.textContent=fmtD(netProfit);
+  colorVal(npEl,netProfit,1,0);
+  var nmEl=document.getElementById('pm-nm');
+  nmEl.textContent=netMargin.toFixed(1)+'%';
+  colorVal(nmEl,netMargin,15,5);
+  showR('pm-result');
+}
+
+function calcLTV(){
+  var aov=parseFloat(document.getElementById('ltv-aov').value)||0;
+  var freq=parseFloat(document.getElementById('ltv-freq').value)||0;
+  var life=parseFloat(document.getElementById('ltv-life').value)||0;
+  var margin=parseFloat(document.getElementById('ltv-margin').value)||0;
+  var ratio=parseFloat(document.getElementById('ltv-ratio').value)||3;
+  if(!aov||!freq||!life)return;
+  var revLTV=aov*freq*life;
+  var gpLTV=revLTV*(margin/100);
+  var maxCAC=gpLTV/ratio;
+  document.getElementById('ltv-rev').textContent=fmtD(revLTV);
+  document.getElementById('ltv-gp').textContent=fmtD(gpLTV);
+  document.getElementById('ltv-cac').textContent=fmtD(maxCAC)+' max CAC at '+ratio+':1';
+  showR('ltv-result');
+}
+
+function calcAOV(){
+  var spend=parseFloat(document.getElementById('aov-spend').value)||0;
+  var targetRoas=parseFloat(document.getElementById('aov-roas').value)||0;
+  var orders=parseFloat(document.getElementById('aov-orders').value)||0;
+  var cogsPct=parseFloat(document.getElementById('aov-cogs').value)||0;
+  var targetProfit=parseFloat(document.getElementById('aov-target').value)||0;
+  if(!spend||!orders)return;
+  var revNeeded=spend*targetRoas;
+  // rev = spend*roas; netProfit = rev*(1-cogs/100) - spend - overhead = target
+  // solve for rev that gives target: rev*(1-cogs/100) - spend = targetProfit → rev = (targetProfit + spend)/(1-cogs/100)
+  var revForProfit=(targetProfit+spend)/(1-(cogsPct/100));
+  var revRequired=Math.max(revNeeded,revForProfit);
+  var requiredAOV=orders>0?revRequired/orders:0;
+  var currentAOV=revNeeded/orders;
+  var gap=requiredAOV-currentAOV;
+  var tactic=gap<=0?'Current AOV is sufficient  -  focus on volume':
+    gap<10?'Add a small upsell or product bundle at checkout':
+    gap<25?'Introduce a bundle offer or free shipping threshold':
+    gap<50?'Launch subscription model or multi-pack bundles':'Reposition pricing tier or add high-margin upsell product';
+  document.getElementById('aov-revneeded').textContent=fmtD(revRequired);
+  document.getElementById('aov-needed').textContent=fmtD(requiredAOV)+' per order';
+  var gapEl=document.getElementById('aov-gap');
+  gapEl.textContent=gap<=0?'No gap  -  you\'re profitable':'+'+fmtD(gap)+' above current AOV';
+  gapEl.className='calc-res-val'+(gap<=0?' good':gap<20?' warn':' bad');
+  document.getElementById('aov-tactic').textContent=tactic;
+  showR('aov-result');
+}
+
+// Enter key support on all calc inputs
+document.querySelectorAll('.calc-inp,.calc-select').forEach(function(inp){
+  inp.addEventListener('keydown',function(e){
+    if(e.key==='Enter'){
+      var card=inp.closest('.calc-card');
+      if(card)card.querySelector('.calc-btn').click();
+    }
+  });
+});
+
+// ── SCROLL REVEAL ─────────────────────────────────────────────────────────
+(function(){
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+  },{threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+})();
+
+// ── ACTIVE NAV ON SCROLL ──────────────────────────────────────────────────
+(function(){
+  var links=document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll',function(){
+    var y=window.pageYOffset+80;
+    var cur=0;
+    ['analysis','tools','newsletter'].forEach(function(id,i){
+      var el=document.getElementById(id);
+      if(el&&el.offsetTop<=y)cur=i+1;
+    });
+    links.forEach(function(a,i){a.classList.toggle('active',i===0&&cur===0||i===1&&cur===1||i===2&&cur>=2);});
+  },{passive:true});
+})();
+
+// ── ARTICLES.JSON LOADER ──────────────────────────────────────────────────
 async function loadPosts(){
   try{
-    const r=await fetch('./articles.json');if(!r.ok)throw 0;
-    const posts=await r.json();if(!posts.length)throw 0;
-    const feat=posts[0];
-    const fl=document.getElementById('gh-feat-link');
-    const fi=document.getElementById('gh-feat-img');
-    if(fl)fl.href='./'+(feat.slug||'#')+'/';
-    if(fi&&feat.image){fi.src=feat.image;fi.alt=feat.title;}
-    const ft=document.getElementById('gh-feat-title');
-    const fd=document.getElementById('gh-feat-desc');
-    const fm=document.getElementById('gh-feat-meta');
-    if(ft)ft.textContent=feat.title;
-    if(fd)fd.textContent=(feat.meta_description||'').slice(0,130)+'...';
-    if(fm)fm.textContent=feat.date_iso||'';
-    const side=document.getElementById('gh-side');
-    if(side)side.innerHTML=posts.slice(1,4).map(p=>`<a href="./${p.slug||'#'}/" class="gh-sub-art">${p.image?`<div class="gac-img-wrap" style="width:88px;flex-shrink:0"><img class="gh-sub-img" src="${p.image}" alt="${p.title}" loading="lazy" style="width:88px;height:88px;object-fit:cover;display:block"></div>`:`<div class="gh-sub-img"></div>`}<div class="gh-sub-body"><div class="gh-sub-tag">Ecommerce Strategy</div><div class="gh-sub-title">${p.title}</div><div class="gh-sub-date">${p.date_iso||''}</div></div></a>`).join('');
-    const grid=document.getElementById('gaa-grid');
-    if(grid)grid.innerHTML=posts.map(p=>`<a href="./${p.slug||'#'}/" class="gac"><div class="gac-img-wrap">${p.image?`<img class="gac-img" src="${p.image}" alt="${p.title}" loading="lazy">`:`<div class="gac-img"></div>`}</div><div class="gac-body"><div class="gac-tag">Ecommerce Strategy</div><div class="gac-title">${p.title}</div><div class="gac-desc">${(p.meta_description||'').slice(0,110)}...</div></div><div class="gac-foot"><span class="gac-date">${p.date_iso||''}</span><span class="gac-read">Read →</span></div></a>`).join('');
-  }catch(e){
-    const grid=document.getElementById('gaa-grid');
-    if(grid)grid.innerHTML='<div class="gac"><div class="gac-body"><div class="gac-tag">Coming Soon</div><div class="gac-title">Articles publishing soon</div><div class="gac-desc">Check back shortly.</div></div></div>';
-  }
+    var r=await fetch('./articles.json'); if(!r.ok)throw 0;
+    var posts=await r.json(); if(!posts||!posts.length)throw 0;
+
+    // Update CTA link to latest article (keep headline static)
+    var hl=document.getElementById('hero-feat-link');
+    if(hl&&posts[0])hl.href='./'+posts[0].slug+'/';
+
+    // Main feed
+    var mf=document.getElementById('main-feed');
+    if(mf&&posts.length){
+      mf.innerHTML=posts.slice(0,6).map(function(p){
+        var imgHtml=p.image
+          ?'<img class="art-card-img" src="'+p.image+'" alt="'+p.title+'" loading="lazy">'
+          :'<div class="art-card-img" style="background:var(--bg3);display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 180 130" width="48" fill="none" stroke="#d1d5db" stroke-width="1.5"><polyline points="10,100 40,65 70,80 110,40 150,55 175,25"/></svg></div>';
+        return '<a href="./'+p.slug+'/" style="display:block"><div class="art-card">'+imgHtml+'<div class="art-card-body"><div class="art-card-tag">Ecommerce Strategy</div><div class="art-card-title">'+p.title+'</div><div class="art-card-desc">'+(p.meta_description||'').slice(0,110)+'</div><div class="art-card-meta">'+(p.date_iso||'')+(p.author?' · '+p.author:'')+'</div><div class="art-card-read">Read article →</div></div></div></a>';
+      }).join('');
+    }
+
+    // Sidebar
+    var sf=document.getElementById('side-feed');
+    if(sf&&posts.length){
+      sf.innerHTML=posts.slice(0,4).map(function(p){
+        var imgHtml=p.image?'<img class="side-img" src="'+p.image+'" alt="'+p.title+'" loading="lazy">':'<div class="side-img"></div>';
+        return '<a href="./'+p.slug+'/" style="display:block"><div class="side-item">'+imgHtml+'<div><div class="side-title">'+p.title+'</div><div class="side-meta">'+(p.date_iso||'')+'</div></div></div></a>';
+      }).join('');
+    }
+  }catch(e){}
 }
-function nlSub(e){e.preventDefault();document.getElementById('gnl-form').innerHTML='<div style="color:#fff;font-size:16px;font-weight:600;padding:8px 0">Subscribed — first issue incoming.</div>';}
-const obs=new IntersectionObserver(entries=>entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('visible');obs.unobserve(en.target);}},{threshold:.1});
-document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 loadPosts();
-/* banner loader: pexels → picsum fallback */
-(function(){
-  var el=document.getElementById('pxl-img');
-  var cr=document.getElementById('pxl-cred');
-  if(!el)return;
-  function showImg(src,cred){
-    el.onload=function(){el.style.opacity='1';if(cred&&cr){cr.textContent=cred;cr.style.opacity='1';}};
-    el.src=src;
+</script>
+
+<!-- THREE.JS INITIALIZATION -->
+<script>
+(function initThree(){
+  var wrap=document.getElementById('three-wrap');
+  var canvas=document.getElementById('three-canvas');
+  if(!wrap||!canvas||typeof THREE==='undefined'){
+    // Retry once Three.js loads
+    setTimeout(initThree,300);return;
   }
-  var k=localStorage.getItem('pexelsKey');
-  if(k){
-    fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('online shopping ecommerce website store')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
-      .then(function(r){return r.json();}).then(function(d){
-        if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/406/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/406/1400/400','');});
-  }else{
-    showImg('https://picsum.photos/seed/406/1400/400','');
-  }
+  var W=wrap.clientWidth,H=wrap.clientHeight;
+  var scene=new THREE.Scene();
+  var camera=new THREE.PerspectiveCamera(52,W/H,0.1,100);
+  camera.position.set(0,0,7.5);
+  var renderer=new THREE.WebGLRenderer({canvas:canvas,alpha:true,antialias:true});
+  renderer.setSize(W,H);renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+
+  // Lights
+  scene.add(new THREE.AmbientLight(0xffffff,0.4));
+  var pl=new THREE.PointLight(0xf97316,3,20);pl.position.set(0,0,0);scene.add(pl);
+  var pl2=new THREE.PointLight(0x3b82f6,1.5,15);pl2.position.set(-3,3,2);scene.add(pl2);
+
+  // World group (everything rotates together)
+  var world=new THREE.Group();scene.add(world);
+
+  // Central sphere
+  var center=new THREE.Mesh(
+    new THREE.SphereGeometry(0.65,48,48),
+    new THREE.MeshStandardMaterial({color:0xf97316,emissive:0xf97316,emissiveIntensity:0.5,roughness:0.15,metalness:0.8})
+  );
+  world.add(center);
+
+  // Glow ring around center
+  var ringGeo=new THREE.TorusGeometry(0.9,0.02,8,64);
+  var ringMat=new THREE.MeshBasicMaterial({color:0xf97316,opacity:0.3,transparent:true});
+  var ring=new THREE.Mesh(ringGeo,ringMat);
+  ring.rotation.x=Math.PI/2;world.add(ring);
+
+  // Orbiting nodes
+  var orbitData=[
+    {color:0x3b82f6,r:2.6,ys:0.7,speed:0.45,phase:0},
+    {color:0x22c55e,r:2.1,ys:0.5,speed:-0.38,phase:Math.PI*0.55},
+    {color:0xa855f7,r:3.0,ys:0.6,speed:0.28,phase:Math.PI},
+    {color:0xf43f5e,r:2.35,ys:0.8,speed:-0.55,phase:Math.PI*1.5},
+  ];
+  var nodeMeshes=orbitData.map(function(o){
+    var m=new THREE.Mesh(
+      new THREE.SphereGeometry(0.22,16,16),
+      new THREE.MeshStandardMaterial({color:o.color,emissive:o.color,emissiveIntensity:0.6,roughness:0.2,metalness:0.6})
+    );
+    world.add(m);return m;
+  });
+
+  // Connection lines (dynamic)
+  var lineMats=orbitData.map(function(o){
+    return new THREE.LineBasicMaterial({color:o.color,opacity:0.18,transparent:true});
+  });
+  var lineGeos=orbitData.map(function(){
+    var geo=new THREE.BufferGeometry();
+    var arr=new Float32Array(6);
+    geo.setAttribute('position',new THREE.BufferAttribute(arr,3));
+    return geo;
+  });
+  var lineObjs=lineGeos.map(function(geo,i){
+    var l=new THREE.Line(geo,lineMats[i]);world.add(l);return l;
+  });
+
+  // Particles along connections
+  var PPC=6;
+  var pMat=new THREE.MeshBasicMaterial({color:0xfed7aa});
+  var particles=orbitData.map(function(_,ni){
+    return Array.from({length:PPC},function(_,k){
+      var m=new THREE.Mesh(new THREE.SphereGeometry(0.045,6,6),pMat.clone());
+      world.add(m);return{mesh:m,t:k/PPC};
+    });
+  });
+
+  // Mouse/touch rotation
+  var autoA=0,isDrag=false,px=0,py=0,mY=0,mX=0;
+  wrap.addEventListener('mousedown',function(e){isDrag=true;px=e.clientX;py=e.clientY;});
+  window.addEventListener('mouseup',function(){isDrag=false;});
+  window.addEventListener('mousemove',function(e){
+    if(!isDrag)return;
+    mY+=(e.clientX-px)*0.012;mX+=(e.clientY-py)*0.008;
+    mX=Math.max(-0.75,Math.min(0.75,mX));
+    px=e.clientX;py=e.clientY;
+  });
+  wrap.addEventListener('touchstart',function(e){isDrag=true;px=e.touches[0].clientX;py=e.touches[0].clientY;},{passive:true});
+  window.addEventListener('touchend',function(){isDrag=false;});
+  window.addEventListener('touchmove',function(e){
+    if(!isDrag)return;
+    mY+=(e.touches[0].clientX-px)*0.012;
+    px=e.touches[0].clientX;
+  },{passive:true});
+
+  var t=0;
+  (function anim(){
+    requestAnimationFrame(anim);
+    t+=0.01;
+    if(!isDrag)autoA+=0.004;
+    world.rotation.y=autoA+mY;
+    world.rotation.x=mX;
+
+    // Position nodes
+    orbitData.forEach(function(o,i){
+      var a=o.speed*t+o.phase;
+      var x=Math.cos(a)*o.r;
+      var y=Math.sin(a*o.ys)*0.75;
+      var z=Math.sin(a)*o.r;
+      nodeMeshes[i].position.set(x,y,z);
+      var s=1+Math.sin(t*2.2+i)*0.09;
+      nodeMeshes[i].scale.setScalar(s);
+
+      // Update line
+      var arr=lineGeos[i].attributes.position.array;
+      arr[0]=0;arr[1]=0;arr[2]=0;arr[3]=x;arr[4]=y;arr[5]=z;
+      lineGeos[i].attributes.position.needsUpdate=true;
+
+      // Update particles
+      particles[i].forEach(function(p){
+        p.t=(p.t+0.009)%1;
+        p.mesh.position.set(x*(1-p.t),y*(1-p.t),z*(1-p.t));
+        var ps=0.3+p.t*0.7;
+        p.mesh.scale.setScalar(ps);
+        p.mesh.material.opacity=0.4+p.t*0.6;
+        p.mesh.material.transparent=true;
+      });
+    });
+
+    // Pulse center
+    var cs=1+Math.sin(t*1.3)*0.05;
+    center.scale.setScalar(cs);
+    ring.rotation.z=t*0.4;
+    pl.intensity=2.5+Math.sin(t*2)*0.5;
+
+    renderer.render(scene,camera);
+  })();
+
+  window.addEventListener('resize',function(){
+    var W2=wrap.clientWidth,H2=wrap.clientHeight;
+    camera.aspect=W2/H2;camera.updateProjectionMatrix();
+    renderer.setSize(W2,H2);
+  });
 })();
 </script>
-</body></html>
+</body>
+</html>
