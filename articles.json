@@ -1,5 +1,82 @@
 [
   {
+    "title": "Pricing Psychology: Why $97 Beats $99 in Most DTC Markets",
+    "slug": "pricing-psychology-97-beats-99",
+    "meta_description": "Why .97 pricing outperforms .99 in most DTC markets. Siavash Sadighi breaks down the psychology and real conversion data behind charm pricing.",
+    "date": "May 18, 2026",
+    "date_iso": "2026-05-18",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/7986978/pexels-photo-7986978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "intelligems.io"
+    ]
+  },
+  {
+    "title": "AI Competitor Analysis at Scale: How to Actually Do It (Not Just Talk About It)",
+    "slug": "ai-competitor-analysis-at-scale",
+    "meta_description": "Learn how to run AI-powered competitor analysis at scale \u2014 from ad creative scraping to positioning gaps. A practitioner's guide, not a theory piece.",
+    "date": "May 18, 2026",
+    "date_iso": "2026-05-18",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/5831347/pexels-photo-5831347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "crayon.co",
+      "apify.com",
+      "semrush.com"
+    ],
+    "syndicated_from": "aimarketingpro"
+  },
+  {
+    "title": "How Top DTC Brands Turn the Thank-You Page Into a Revenue Machine",
+    "slug": "dtc-post-purchase-upsells-strategy",
+    "meta_description": "Post-purchase upsells are the most underused revenue lever in DTC. Here's how top brands structure them \u2014 and what most brands get wrong.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "zipify.com"
+    ]
+  },
+  {
+    "title": "ChatGPT vs Claude vs Gemini for Marketing Copy: An Honest Take From Someone Who's Actually Used All Three",
+    "slug": "chatgpt-claude-gemini-marketing-copy-comparison",
+    "meta_description": "Jordan Blake compares ChatGPT, Claude, and Gemini for marketing copy based on real testing \u2014 not benchmarks. Here's which one actually moves product.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/7561704/pexels-photo-7561704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "persado.com"
+    ],
+    "syndicated_from": "aimarketingpro"
+  },
+  {
+    "title": "The Abandoned Cart Email Sequence That Consistently Recovers 15% of Lost Revenue",
+    "slug": "abandoned-cart-email-sequence-recover-revenue",
+    "meta_description": "Nina Patel shares the exact abandoned cart email sequence structure that recovers 15% of lost carts \u2014 with timing, copy angles, and what doesn't work.",
+    "date": "May 16, 2026",
+    "date_iso": "2026-05-16",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/16675632/pexels-photo-16675632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com"
+    ]
+  },
+  {
+    "title": "Building an AI-Powered Lead Scoring System That Sales Will Actually Trust",
+    "slug": "ai-powered-lead-scoring-system",
+    "meta_description": "Learn how to build an AI-powered lead scoring system that improves conversion rates \u2014 from a performance marketer who's done it at scale.",
+    "date": "May 16, 2026",
+    "date_iso": "2026-05-16",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/7013070/pexels-photo-7013070.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "forrester.com"
+    ],
+    "syndicated_from": "aimarketingpro"
+  },
+  {
     "title": "How to Increase Your Shopify Conversion Rate Without Spending a Dollar on Ads",
     "slug": "shopify-conversion-rate-without-paid-ads",
     "meta_description": "Nina Patel shares tactical, experience-backed strategies to increase Shopify conversion rate without paid ads \u2014 from trust signals to checkout friction.",
@@ -25,39 +102,58 @@
     ]
   },
   {
-    "title": "The Abandoned Cart Email Sequence That Consistently Recovers 15% of Lost Revenue",
-    "slug": "abandoned-cart-email-sequence-recover-revenue",
-    "meta_description": "Nina Patel shares the exact abandoned cart email sequence structure that recovers 15% of lost carts \u2014 with timing, copy angles, and what doesn't work.",
-    "date": "May 16, 2026",
-    "date_iso": "2026-05-16",
+    "title": "AI Copywriting Tools in Real A/B Tests: What the Data Actually Shows",
+    "slug": "ai-copywriting-tools-ab-test-results",
+    "meta_description": "Jordan Blake breaks down how AI copywriting tools actually perform in real A/B tests \u2014 with data, honest failures, and a clear take on where they belong.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
-    "image": "https://images.pexels.com/photos/16675632/pexels-photo-16675632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/7947698/pexels-photo-7947698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "baymard.com"
-    ]
+      "persado.com"
+    ],
+    "syndicated_from": "aimarketingpro"
   },
   {
-    "title": "How Top DTC Brands Turn the Thank-You Page Into a Revenue Machine",
-    "slug": "dtc-post-purchase-upsells-strategy",
-    "meta_description": "Post-purchase upsells are the most underused revenue lever in DTC. Here's how top brands structure them \u2014 and what most brands get wrong.",
-    "date": "May 17, 2026",
-    "date_iso": "2026-05-17",
+    "title": "Using Claude to Write Better Ad Copy Than Your Agency (Without the Retainer Fee)",
+    "slug": "claude-better-ad-copy-agency",
+    "meta_description": "Jordan Blake shows how Claude outperforms traditional agencies on ad copy \u2014 with prompting frameworks that actually move ROAS.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
-    "image": "https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/6958733/pexels-photo-6958733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "zipify.com"
-    ]
+      "anthropic.com",
+      "nielseniq.com"
+    ],
+    "syndicated_from": "aimarketingpro"
   },
   {
-    "title": "Pricing Psychology: Why $97 Beats $99 in Most DTC Markets",
-    "slug": "pricing-psychology-97-beats-99",
-    "meta_description": "Why .97 pricing outperforms .99 in most DTC markets. Siavash Sadighi breaks down the psychology and real conversion data behind charm pricing.",
-    "date": "May 18, 2026",
-    "date_iso": "2026-05-18",
+    "title": "AI-Generated vs Human-Written Email Sequences: What the Open Rate Data Actually Shows",
+    "slug": "ai-vs-human-email-open-rates",
+    "meta_description": "Jordan Blake breaks down real open rate data comparing AI-generated and human-written email sequences. The results are more nuanced than the hype suggests.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
-    "image": "https://images.pexels.com/photos/7986978/pexels-photo-7986978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/669609/pexels-photo-669609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "intelligems.io"
-    ]
+      "mailchimp.com"
+    ],
+    "syndicated_from": "aimarketingpro"
+  },
+  {
+    "title": "How to Automate Your Content Calendar with AI Tools (Without Losing Strategic Control)",
+    "slug": "automate-content-calendar-ai-tools",
+    "meta_description": "Jordan Blake shows how to automate your content calendar with AI tools using real workflows, honest tradeoffs, and performance marketer logic.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/6892902/pexels-photo-6892902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hubspot.com",
+      "semrush.com",
+      "zapier.com"
+    ],
+    "syndicated_from": "aimarketingpro"
   }
 ]
