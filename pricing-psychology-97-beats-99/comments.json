@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1641",
+    "name": "Marcus T.",
+    "initials": "MT",
+    "color": "#ec4899",
+    "date_iso": "2026-05-19",
+    "date_display": "May 19, 2026",
+    "text": "This is interesting but I've actually seen the opposite work better for luxury goods. When we tested $99 vs $97 on our premium skincare line, $99 converted higher. Maybe it depends on the market segment?",
+    "likes": 8
+  },
+  {
+    "id": "c2139",
+    "name": "Elena R.",
+    "initials": "ER",
+    "color": "#3ecf8e",
+    "date_iso": "2026-05-23",
+    "date_display": "May 23, 2026",
+    "text": "The charm pricing thing feels outdated honestly. Our customers barely notice the difference between $97 and $99 anymore. We've had better results focusing on value communication instead.",
+    "likes": 5
+  },
+  {
+    "id": "c3160",
+    "name": "James K.",
+    "initials": "JK",
+    "color": "#f97316",
+    "date_iso": "2026-05-26",
+    "date_display": "May 26, 2026",
+    "text": "We tested this exact thing last quarter on our DTC fashion site. $97 beat $99 by about 3% in conversion. Might seem small but that added up to $12k extra revenue over a month.",
+    "likes": 12
+  },
+  {
+    "id": "c4313",
+    "name": "Sofia N.",
+    "initials": "SN",
+    "color": "#f97316",
+    "date_iso": "2026-05-30",
+    "date_display": "May 30, 2026",
+    "text": "Great breakdown of the psychology here. One question though - did you test this across different traffic sources? I wonder if paid ad audiences react differently than organic.",
+    "likes": 3
+  },
+  {
+    "id": "c5450",
+    "name": "David C.",
+    "initials": "DC",
+    "color": "#a78bfa",
+    "date_iso": "2026-06-02",
+    "date_display": "Jun 2, 2026",
+    "text": "Solid article but I think the real lever is testing with YOUR audience, not just following conventional wisdom. We're a DTC brand and our data showed no statistical difference between the two.",
+    "likes": 7
+  }
+]
