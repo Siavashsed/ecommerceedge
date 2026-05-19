@@ -298,7 +298,7 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
   <div class="nav-inner">
     <a href="./" class="nav-logo">Ecommerce Edge<span>DTC Intelligence</span></a>
     <div class="nav-links">
-      <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false" class="active">Home</a>
+      <a href="./" class="active">Home</a>
       <a href="#analysis">Articles</a>
       <a href="#tools">Calculators</a>
       <a href="about.html">About</a>
@@ -392,7 +392,6 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
       <a href="about.html">About</a>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
-      <a href="disclaimer.html">Disclaimer</a>
     </div>
   </div>
   <div class="foot-bottom">
@@ -620,9 +619,13 @@ document.querySelectorAll('.calc-inp,.calc-select').forEach(function(inp){
 
 // ── ARTICLES.JSON LOADER ──────────────────────────────────────────────────
 async function loadPosts(){
+  if(!document.getElementById('main-feed'))return;
   try{
     var r=await fetch('./articles.json'); if(!r.ok)throw 0;
-    var posts=await r.json(); if(!posts||!posts.length)throw 0;
+    var posts=await r.json();
+    if(!Array.isArray(posts))throw 0;
+    posts=posts.filter(function(p){return p&&p.slug&&p.title;});
+    if(!posts.length)throw 0;
 
     // Update CTA link to latest article (keep headline static)
     var hl=document.getElementById('hero-feat-link');
@@ -647,7 +650,12 @@ async function loadPosts(){
         return '<a href="./'+p.slug+'/" style="display:block"><div class="side-item">'+imgHtml+'<div><div class="side-title">'+p.title+'</div><div class="side-meta">'+(p.date_iso||'')+'</div></div></div></a>';
       }).join('');
     }
-  }catch(e){}
+  }catch(e){
+    var mf=document.getElementById('main-feed');
+    if(mf)mf.innerHTML='<div style="text-align:center;padding:48px 20px;color:var(--muted);font-size:14px">New articles coming soon.</div>';
+    var sf=document.getElementById('side-feed');
+    if(sf)sf.innerHTML='<div style="padding:14px 4px;color:var(--muted);font-size:13px">New posts coming soon.</div>';
+  }
 }
 loadPosts();
 </script>
