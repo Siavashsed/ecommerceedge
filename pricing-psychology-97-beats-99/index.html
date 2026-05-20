@@ -252,6 +252,32 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 .three-canvas-wrap:active{cursor:grabbing}
 .three-canvas-wrap canvas{display:block;width:100%!important;height:100%!important}
 .three-hint{position:absolute;bottom:12px;right:14px;font-size:11px;color:#4b5563;pointer-events:none}@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
+
+/* CONTRAST-AUDIT v1 */
+/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
+   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+body[data-page-depth="1"] h1,
+body[data-page-depth="1"] h2,
+body[data-page-depth="1"] h3,
+body[data-page-depth="1"] .art-title,
+body[data-page-depth="1"] .article-title,
+body[data-page-depth="1"] .mag-hero h1,
+body[data-page-depth="1"] .imm-hero h1,
+body[data-page-depth="1"] article h1,
+body[data-page-depth="1"] article h2,
+body[data-page-depth="1"] article h3{color:#000000 !important}
+body[data-page-depth="1"] article p,
+body[data-page-depth="1"] article li,
+body[data-page-depth="1"] .art-body p,
+body[data-page-depth="1"] .mag-body p,
+body[data-page-depth="1"] .imm-body p,
+body[data-page-depth="1"] article .intro,
+body[data-page-depth="1"] article .concl,
+body[data-page-depth="1"] article strong{color:#1a1a1a !important}
+body[data-page-depth="1"] article a,
+body[data-page-depth="1"] article p a,
+body[data-page-depth="1"] article .intro a{color:#000000 !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
 /* page */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -263,6 +289,8 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
   --shadow-md:0 4px 12px rgba(0,0,0,.1);
   --font:'Inter',system-ui,sans-serif;
 }
+/* page */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 .art-card-img{width:180px;height:130px;object-fit:cover;display:block;background:var(--bg3)}
 /* page */
 .art{max-width:760px;margin:48px auto;padding:0 24px 80px}
@@ -309,7 +337,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
   </div>
 </nav>
 <article itemscope itemtype="https://schema.org/Article"><div class="art">
-  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18">May 18, 2026</time></time></time></time></time> &nbsp;·&nbsp; Ecommerce Strategy</div>
+  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18"><time datetime="2026-05-18">May 18, 2026</time></time></time></time></time></time> &nbsp;·&nbsp; Ecommerce Strategy</div>
   <h1>Pricing Psychology: Why $97 Beats $99 in Most DTC Markets</h1>
   <div style="font-size:13px;color:#999;margin-bottom:24px">By <strong style="color:#444">Siavash Sadighi</strong></div>
   <img src="https://images.pexels.com/photos/7986978/pexels-photo-7986978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Close-up of a handwritten price tag on a wooden retail display showing a charm price" loading="lazy" style="width:100%;height:400px;object-fit:cover;border-radius:8px;margin:28px 0"><p style="font-size:11px;color:#999;margin:-16px 0 20px">Photo by Tamanna Rumee / Pexels</p>
@@ -452,7 +480,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
     }).catch(function(){allComments=[];rerender();});
   }
 })();
-</script></article></article></article></article></article>
+</script></article></article></article></article></article></article>
 <footer class="foot">
   <div class="foot-top">
     <div>
