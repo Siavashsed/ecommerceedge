@@ -262,6 +262,38 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
   --shadow:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);
   --shadow-md:0 4px 12px rgba(0,0,0,.1);
   --font:'Inter',system-ui,sans-serif;
+}@media(max-width:768px){.nav-links,.nav-right .nav-btn{display:none}.nav-burger{display:flex}}@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.7}}@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}@media(max-width:900px){.calc-grid{grid-template-columns:1fr}}@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;gap:40px}
+  .hero-chart-col{display:none}
+  .feed-grid{grid-template-columns:1fr;gap:32px}
+  .foot-top{grid-template-columns:1fr 1fr;gap:32px}
+}@media(max-width:768px){
+  .hero{padding:48px 20px 0}
+  .hero-content{padding-bottom:40px}
+  .vp-inner{grid-template-columns:repeat(2,1fr)}
+  .calc-grid{grid-template-columns:1fr}
+  .about-inner{grid-template-columns:1fr}
+  .about-avatar{display:none}
+  .art-card{grid-template-columns:1fr}
+  .art-card-img{width:100%;height:160px}
+  .foot-top{grid-template-columns:1fr;gap:24px;padding-bottom:28px}
+}@media(max-width:480px){
+  .hero-stats{flex-direction:column;gap:0}
+  .hero-stat{border-right:none;border-bottom:1px solid var(--brd)}
+  .hero-stat:first-child{border-radius:8px 8px 0 0}
+  .hero-stat:last-child{border-radius:0 0 8px 8px;border-bottom:none}
+  .vp-inner{grid-template-columns:1fr}
+  .nl-full-form{flex-direction:column;border-radius:8px;overflow:visible;box-shadow:none;gap:8px}
+  .nl-full-form input,.nl-full-form button{border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+}@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
+:root{
+  --org:#f97316;--org2:#f97316;--org3:#fed7aa;
+  --bg:#ffffff;--bg2:#fafafa;--bg3:#f4f4f5;
+  --txt:#111827;--txt2:#374151;--muted:#6b7280;
+  --brd:#e5e7eb;--brd2:#d1d5db;
+  --shadow:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);
+  --shadow-md:0 4px 12px rgba(0,0,0,.1);
+  --font:'Inter',system-ui,sans-serif;
 }@media(max-width:768px){.nav-links,.nav-right .nav-btn{display:none}.nav-burger{display:flex}}@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.7}}
 .art-card-img{width:180px;height:130px;object-fit:cover;display:block;background:var(--bg3)}@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}@media(max-width:900px){.calc-grid{grid-template-columns:1fr}}@media(max-width:1024px){
   .hero-inner{grid-template-columns:1fr;gap:40px}
@@ -588,7 +620,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
   </div>
 </nav>
 <article itemscope itemtype="https://schema.org/Article"><div class="art">
-  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time> &nbsp;·&nbsp; Ecommerce Strategy</div>
+  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time></time> &nbsp;·&nbsp; Ecommerce Strategy</div>
   <h1>How to Increase Your Shopify Conversion Rate Without Spending a Dollar on Ads</h1>
   <div style="font-size:13px;color:#999;margin-bottom:24px">By <strong style="color:#444">Nina Patel</strong></div>
   <img src="https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Person reviewing a Shopify store on a laptop with analytics dashboard visible on screen" loading="lazy" style="width:100%;height:400px;object-fit:cover;border-radius:8px;margin:28px 0"><p style="font-size:11px;color:#999;margin:-16px 0 20px">Photo by Nataliya Vaitkevich / Pexels</p>
@@ -731,7 +763,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
     }).catch(function(){allComments=[];rerender();});
   }
 })();
-</script></article></article></article>
+</script></article></article></article></article>
 <footer class="foot">
   <div class="foot-top">
     <div>
