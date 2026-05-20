@@ -9,7 +9,8 @@
     "image": "https://images.pexels.com/photos/7986978/pexels-photo-7986978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "intelligems.io"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "AI Competitor Analysis at Scale: How to Actually Do It (Not Just Talk About It)",
@@ -24,7 +25,8 @@
       "apify.com",
       "semrush.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Brand & Product"
   },
   {
     "title": "How Top DTC Brands Turn the Thank-You Page Into a Revenue Machine",
@@ -36,7 +38,8 @@
     "image": "https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "zipify.com"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "ChatGPT vs Claude vs Gemini for Marketing Copy: An Honest Take From Someone Who's Actually Used All Three",
@@ -49,7 +52,8 @@
     "outbound_links": [
       "persado.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Paid Acquisition"
   },
   {
     "title": "The Abandoned Cart Email Sequence That Consistently Recovers 15% of Lost Revenue",
@@ -61,7 +65,8 @@
     "image": "https://images.pexels.com/photos/16675632/pexels-photo-16675632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "baymard.com"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "Building an AI-Powered Lead Scoring System That Sales Will Actually Trust",
@@ -74,7 +79,8 @@
     "outbound_links": [
       "forrester.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Paid Acquisition"
   },
   {
     "title": "How to Increase Your Shopify Conversion Rate Without Spending a Dollar on Ads",
@@ -87,7 +93,8 @@
     "outbound_links": [
       "baymard.com",
       "developers.google.com/search/blog/2020/05/evaluating-page-experience"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "Product Page Elements That Kill Conversions (And Why Most Brands Miss Them)",
@@ -99,7 +106,8 @@
     "image": "https://images.pexels.com/photos/5632407/pexels-photo-5632407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "baymard.com"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "AI Copywriting Tools in Real A/B Tests: What the Data Actually Shows",
@@ -112,7 +120,8 @@
     "outbound_links": [
       "persado.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Shopify & Platforms"
   },
   {
     "title": "Using Claude to Write Better Ad Copy Than Your Agency (Without the Retainer Fee)",
@@ -126,7 +135,8 @@
       "anthropic.com",
       "nielseniq.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Paid Acquisition"
   },
   {
     "title": "AI-Generated vs Human-Written Email Sequences: What the Open Rate Data Actually Shows",
@@ -139,7 +149,8 @@
     "outbound_links": [
       "mailchimp.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Paid Acquisition"
   },
   {
     "title": "How to Automate Your Content Calendar with AI Tools (Without Losing Strategic Control)",
@@ -154,6 +165,7 @@
       "semrush.com",
       "zapier.com"
     ],
-    "syndicated_from": "aimarketingpro"
+    "syndicated_from": "aimarketingpro",
+    "category": "Brand & Product"
   }
 ]
