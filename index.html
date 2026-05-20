@@ -44,8 +44,7 @@ img{display:block;max-width:100%}
 .nav-mobile{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--brd);flex-direction:column;z-index:99;box-shadow:var(--shadow-md)}
 .nav-mobile.open{display:flex}
 .nav-mobile a{font-size:14px;font-weight:500;color:var(--txt2);padding:14px 24px;border-bottom:1px solid var(--brd)}
-.nav-mobile a:hover{color:var(--org);background:#fff7ed}
-@media(max-width:768px){.nav-links,.nav-right .nav-btn{display:none}.nav-burger{display:flex}}
+.nav-mobile a:hover{color:var(--org);background:#fff7ed}@media(max-width:768px){.nav-links,.nav-right .nav-btn{display:none}.nav-burger{display:flex}}
 
 /* ── HERO ── */
 .hero{background:linear-gradient(135deg,#fff7ed 0%,#ffffff 50%,#f0fdf4 100%);border-bottom:1px solid var(--brd);overflow:hidden;position:relative;padding:72px 20px 0}
@@ -53,8 +52,7 @@ img{display:block;max-width:100%}
 .hero-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 480px;gap:60px;align-items:end}
 .hero-content{padding-bottom:64px}
 .hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--org);background:#fff7ed;border:1px solid #fed7aa;padding:5px 12px;border-radius:20px;margin-bottom:20px;text-transform:uppercase;letter-spacing:.5px}
-.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--org);animation:pulse-dot 2s ease-in-out infinite}
-@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.7}}
+.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--org);animation:pulse-dot 2s ease-in-out infinite}@keyframes pulse-dot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.7}}
 .hero-h1{font-size:clamp(32px,5vw,58px);font-weight:800;line-height:1.06;color:var(--txt);margin-bottom:18px;letter-spacing:-2px}
 .hero-h1 em{font-style:normal;color:var(--org)}
 .hero-desc{font-size:16px;color:var(--txt2);line-height:1.75;margin-bottom:32px;max-width:520px}
@@ -112,9 +110,7 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 .art-card:hover .art-card-title{color:var(--org)}
 .art-card-desc{font-size:12px;color:var(--muted);line-height:1.6;flex:1}
 .art-card-meta{font-size:11px;color:var(--muted)}
-.art-card-read{font-size:11px;font-weight:700;color:var(--org);margin-top:2px}
-/* skeleton */
-@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}
+.art-card-read{font-size:11px;font-weight:700;color:var(--org);margin-top:2px}@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}
 .sk-card{border:1px solid var(--brd);background:#fff;margin-bottom:1px;display:grid;grid-template-columns:180px 1fr;pointer-events:none}
 .sk-img{width:180px;height:130px;background:linear-gradient(90deg,#f3f4f6 25%,#e5e7eb 50%,#f3f4f6 75%);background-size:200% 100%;animation:shimmer 1.8s ease-in-out infinite}
 .sk-body{padding:16px 20px;display:flex;flex-direction:column;gap:10px}
@@ -137,8 +133,7 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 
 /* ── CALCULATORS ── */
 .calc-section{background:var(--bg3);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);padding:60px 0}
-.calc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--brd)}
-@media(max-width:900px){.calc-grid{grid-template-columns:1fr}}
+.calc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--brd)}@media(max-width:900px){.calc-grid{grid-template-columns:1fr}}
 .calc-card{background:#fff;padding:28px 28px 24px}
 .calc-name{font-size:11px;font-weight:700;color:var(--org);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:4px}
 .calc-subtitle{font-size:13px;font-weight:600;color:var(--txt);margin-bottom:18px}
@@ -214,16 +209,12 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 /* ── SCROLL REVEAL ── */
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
 .reveal.visible{opacity:1;transform:none}
-#analysis,#tools{scroll-margin-top:70px}
-
-/* ── RESPONSIVE ── */
-@media(max-width:1024px){
+#analysis,#tools{scroll-margin-top:70px}@media(max-width:1024px){
   .hero-inner{grid-template-columns:1fr;gap:40px}
   .hero-chart-col{display:none}
   .feed-grid{grid-template-columns:1fr;gap:32px}
   .foot-top{grid-template-columns:1fr 1fr;gap:32px}
-}
-@media(max-width:768px){
+}@media(max-width:768px){
   .hero{padding:48px 20px 0}
   .hero-content{padding-bottom:40px}
   .vp-inner{grid-template-columns:repeat(2,1fr)}
@@ -233,8 +224,7 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
   .art-card{grid-template-columns:1fr}
   .art-card-img{width:100%;height:160px}
   .foot-top{grid-template-columns:1fr;gap:24px;padding-bottom:28px}
-}
-@media(max-width:480px){
+}@media(max-width:480px){
   .hero-stats{flex-direction:column;gap:0}
   .hero-stat{border-right:none;border-bottom:1px solid var(--brd)}
   .hero-stat:first-child{border-radius:8px 8px 0 0}
@@ -260,9 +250,33 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 .three-canvas-wrap{height:420px;position:relative;cursor:grab;touch-action:none;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.07)}
 .three-canvas-wrap:active{cursor:grabbing}
 .three-canvas-wrap canvas{display:block;width:100%!important;height:100%!important}
-.three-hint{position:absolute;bottom:12px;right:14px;font-size:11px;color:#4b5563;pointer-events:none}
-@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}
-@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
+.three-hint{position:absolute;bottom:12px;right:14px;font-size:11px;color:#4b5563;pointer-events:none}@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
+
+/* CONTRAST-AUDIT v1 */
+/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
+   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+body[data-page-depth="1"] h1,
+body[data-page-depth="1"] h2,
+body[data-page-depth="1"] h3,
+body[data-page-depth="1"] .art-title,
+body[data-page-depth="1"] .article-title,
+body[data-page-depth="1"] .mag-hero h1,
+body[data-page-depth="1"] .imm-hero h1,
+body[data-page-depth="1"] article h1,
+body[data-page-depth="1"] article h2,
+body[data-page-depth="1"] article h3{color:#000000 !important}
+body[data-page-depth="1"] article p,
+body[data-page-depth="1"] article li,
+body[data-page-depth="1"] .art-body p,
+body[data-page-depth="1"] .mag-body p,
+body[data-page-depth="1"] .imm-body p,
+body[data-page-depth="1"] article .intro,
+body[data-page-depth="1"] article .concl,
+body[data-page-depth="1"] article strong{color:#1a1a1a !important}
+body[data-page-depth="1"] article a,
+body[data-page-depth="1"] article p a,
+body[data-page-depth="1"] article .intro a{color:#000000 !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
 </style>
 </head>
 <body>
@@ -353,7 +367,7 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
       <div><div class="vp-label">DTC-Native Playbooks</div><div class="vp-desc">Built for Shopify, Klaviyo, Meta Ads  -  real stack, real numbers</div></div>
     </div>
     <div class="vp-item">
-      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div class="vp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
       <div><div class="vp-label">Independent &amp; Unsponsored</div><div class="vp-desc">No agency retainer, no affiliate pressure  -  just honest analysis</div></div>
     </div>
   </div>
