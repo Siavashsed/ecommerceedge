@@ -7,7 +7,7 @@
     "date_iso": "2026-05-16",
     "date_display": "May 16, 2026",
     "text": "Finally someone talking about organic conversion optimization instead of just throwing money at ads. We implemented the checkout optimization tips last month and saw a 3% lift. Small wins add up!",
-    "likes": 8
+    "likes": 2
   },
   {
     "id": "c2253",
@@ -17,7 +17,7 @@
     "date_iso": "2026-05-19",
     "date_display": "May 19, 2026",
     "text": "Question: does the product page layout advice apply to Shopify Plus stores or just standard plans? Our site does 6 figures monthly so not sure if this scales.",
-    "likes": 3
+    "likes": 0
   },
   {
     "id": "c3647",
@@ -27,26 +27,6 @@
     "date_iso": "2026-05-21",
     "date_display": "May 21, 2026",
     "text": "The email capture strategy is solid but I'd caution against being too aggressive with popups. We actually tanked our conversion when we added exit-intent popups last year.",
-    "likes": 11
-  },
-  {
-    "id": "c4883",
-    "name": "Priya M.",
-    "initials": "PM",
-    "color": "#f59e0b",
-    "date_iso": "2026-05-25",
-    "date_display": "May 25, 2026",
-    "text": "This really resonates with my bootstrapped store situation. Can't afford ads right now so focusing on UX improvements and trust signals has been my only option, glad to see it validated here.",
-    "likes": 7
-  },
-  {
-    "id": "c5397",
-    "name": "David C.",
-    "initials": "DC",
-    "color": "#a78bfa",
-    "date_iso": "2026-05-29",
-    "date_display": "May 29, 2026",
-    "text": "Appreciate the practical focus, but you didn't mention A/B testing tools or analytics setup. How are readers supposed to know if their changes actually work without proper measurement?",
-    "likes": 5
+    "likes": 0
   }
 ]
