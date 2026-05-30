@@ -8,7 +8,9 @@
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=85&auto=format&fit=crop",
     "date": "May 30, 2025",
     "date_iso": "2025-05-30",
-    "posted_iso": "2026-05-30T03:03:59.445457"
+    "posted_iso": "2026-05-30T03:03:59.445457",
+    "cross_post_exclude": true,
+    "aggregate": false
   },
   {
     "title": "Pricing Psychology: Why $97 Beats $99 in Most DTC Markets",
