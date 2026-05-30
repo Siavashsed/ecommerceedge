@@ -253,9 +253,11 @@ canvas#rev-canvas{width:100%;flex:1;min-height:160px;display:block;border-radius
 .three-canvas-wrap canvas{display:block;width:100%!important;height:100%!important}
 .three-hint{position:absolute;bottom:12px;right:14px;font-size:11px;color:#4b5563;pointer-events:none}@media(max-width:1024px){.three-wrap{grid-template-columns:1fr}}@media(max-width:768px){.three-canvas-wrap{height:300px}.three-legend{grid-template-columns:1fr 1fr}}
 
-/* CONTRAST-AUDIT v1 */
-/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
-   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+/* CONTRAST-AUDIT v2 - light-theme corrected. The previous block forced
+   #f4f4f4 / #d4d4d4 (off-white) on article text assuming a dark page bg,
+   but ecommerceedge is a LIGHT-theme site (bg #ffffff). Those overrides
+   made every paragraph invisible. Replaced with near-black values that
+   pass WCAG AAA on white. */
 body[data-page-depth="1"] h1,
 body[data-page-depth="1"] h2,
 body[data-page-depth="1"] h3,
@@ -265,7 +267,7 @@ body[data-page-depth="1"] .mag-hero h1,
 body[data-page-depth="1"] .imm-hero h1,
 body[data-page-depth="1"] article h1,
 body[data-page-depth="1"] article h2,
-body[data-page-depth="1"] article h3{color:#f4f4f4 !important}
+body[data-page-depth="1"] article h3{color:#0a0a0a !important}
 body[data-page-depth="1"] article p,
 body[data-page-depth="1"] article li,
 body[data-page-depth="1"] .art-body p,
@@ -273,25 +275,29 @@ body[data-page-depth="1"] .mag-body p,
 body[data-page-depth="1"] .imm-body p,
 body[data-page-depth="1"] article .intro,
 body[data-page-depth="1"] article .concl,
-body[data-page-depth="1"] article strong{color:#d4d4d4 !important}
+body[data-page-depth="1"] article strong{color:#171717 !important}
 body[data-page-depth="1"] article a,
 body[data-page-depth="1"] article p a,
-body[data-page-depth="1"] article .intro a{color:#f4f4f4 !important;text-decoration:underline;text-underline-offset:3px}@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+body[data-page-depth="1"] article .intro a{color:#f97316 !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
+/* page */
+
+
 /* Defensive width constraint - earlier cascades on some sites were letting
    the conclusion + sources block escape the 720px column on wide screens.
    Pin every descendant of .ap to max-width:100% and the wrapper to a hard
    720px so nothing can break out regardless of homepage CSS quirks. */
 .ap,.ap *,.ap-concl,.ap-concl *,.ap-pull,.ap-body,.ap-body *,.ap-deck{box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word;word-break:normal;hyphens:auto;max-width:100%}
-.ap{max-width:720px;margin:0 auto;padding:56px 24px 24px;font-family:'Lora',Georgia,serif;position:relative;overflow:visible}
+.ap{max-width:720px;margin:0 auto;padding:56px 24px 24px;font-family:'Inter',system-ui,sans-serif;position:relative;overflow:visible}
 .ap-body,.ap-concl,.ap-deck,.ap-pull{max-width:none;width:auto}
 .ap-kicker{display:flex;align-items:center;gap:12px;font-family:system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#f97316;margin:0 0 26px}
 .ap-kicker::before{content:'';width:28px;height:1px;background:#f97316}
 .ap-kicker .ap-sep{opacity:.4;font-weight:400;letter-spacing:1px;color:#666666}
 .ap h1{font-family:system-ui,sans-serif;font-size:clamp(32px,5.4vw,54px);font-weight:800;line-height:1.05;letter-spacing:-.6px;color:#111111;margin:0 0 22px;max-width:680px}
-.ap-deck{font-family:'Lora',Georgia,serif;font-size:20px;font-style:italic;line-height:1.5;color:#444444;margin:0 0 36px;max-width:620px}
+.ap-deck{font-family:'Inter',system-ui,sans-serif;font-size:20px;font-style:italic;line-height:1.5;color:#444444;margin:0 0 36px;max-width:620px}
 .ap-hero{margin:0 0 44px}
 .ap-hero img{width:100%;height:auto;max-height:560px;object-fit:cover;display:block;border-radius:2px}
-.ap-hero figcaption{font-family:'Lora',Georgia,serif;font-style:italic;font-size:13px;color:#666666;text-align:center;margin-top:12px}
+.ap-hero figcaption{font-family:'Inter',system-ui,sans-serif;font-style:italic;font-size:13px;color:#666666;text-align:center;margin-top:12px}
 .ap-body{font-size:17.5px;line-height:1.72;color:#111111;letter-spacing:.005em;font-feature-settings:"kern","liga","onum"}
 .ap-body p{margin:0 0 22px;color:#444444}
 .ap-body p.ap-lede{font-size:19.5px;line-height:1.55;color:#111111;margin-bottom:26px;font-weight:400}
@@ -313,7 +319,7 @@ body[data-page-depth="1"] article .intro a{color:#f4f4f4 !important;text-decorat
 .ap-pull{font-family:system-ui,sans-serif;font-size:28px;font-weight:600;font-style:italic;line-height:1.3;color:#111111;margin:56px 0;padding:0 0 0 24px;border-left:0;position:relative}
 .ap-pull::before{content:'';position:absolute;left:0;top:6px;bottom:6px;width:3px;background:#f97316}
 .ap-pull::after{content:'';display:block;width:48px;height:2px;background:#f97316;margin-top:18px;opacity:.5}
-.ap-concl{font-family:'Lora',Georgia,serif;font-size:19px;line-height:1.7;color:#111111;margin-top:40px;padding-top:28px;position:relative}
+.ap-concl{font-family:'Inter',system-ui,sans-serif;font-size:19px;line-height:1.7;color:#111111;margin-top:40px;padding-top:28px;position:relative}
 .ap-concl::before{content:'In closing';display:block;font-family:system-ui,sans-serif;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#f97316;margin-bottom:14px;font-weight:700;font-style:normal}
 .ap-concl::after{content:'';position:absolute;top:0;left:0;width:60px;height:2px;background:#111111}
 .ap-concl p{color:#111111;margin-bottom:18px}@media(max-width:760px){
