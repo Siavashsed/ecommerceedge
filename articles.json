@@ -199,5 +199,42 @@
       "en"
     ],
     "category": "Conversion Rate"
+  },
+  {
+    "title": "Building a Competitive Moat: How DTC Brands Create Unfair Advantages Against Amazon",
+    "slug": "dtc-competitive-moat-against-amazon",
+    "meta_description": "Nina Patel on how DTC brands build real competitive moats against Amazon using community, data, and owned customer relationships.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/3184638/pexels-photo-3184638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hbr.org",
+      "ir.aboutamazon.com",
+      "ftc.gov"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Apple's iOS 14.5 ATT Update Broke DTC Advertising in 2021 - Here's What Actually Happened",
+    "slug": "ios-14-att-dtc-advertising-2021",
+    "meta_description": "Apple's iOS 14.5 ATT rollout in April 2021 upended DTC Facebook advertising overnight. Here's what it meant for brands, in real time.",
+    "date": "November 17, 2021",
+    "date_iso": "2021-11-17",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/12592624/pexels-photo-12592624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "flurry.com",
+      "statista.com",
+      "businessofapps.com"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
