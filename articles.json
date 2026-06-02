@@ -216,7 +216,8 @@
     "posted_iso": "2026-05-31",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "Apple's iOS 14.5 ATT Update Broke DTC Advertising in 2021 - Here's What Actually Happened",
@@ -235,6 +236,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Paid Acquisition"
   }
 ]
