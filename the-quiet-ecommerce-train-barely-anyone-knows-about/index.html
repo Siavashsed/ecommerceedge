@@ -288,10 +288,13 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#f97316) !important;
 
 .ece{background:#ffffff;color:#111111;font-family:system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 .ece *,.ece *::before,.ece *::after{box-sizing:border-box}
-.ece-wrap{max-width:1140px;margin:0 auto;padding:clamp(26px,5vw,54px) clamp(18px,5vw,30px) 88px}
-.ece-grid{display:grid;grid-template-columns:minmax(0,1fr) 312px;gap:clamp(30px,4.5vw,60px);align-items:start}
-.ece-main{min-width:0;max-width:740px}
-.ece-aside{position:sticky;top:24px;display:flex;flex-direction:column;gap:20px}@media(max-width:940px){.ece-grid{grid-template-columns:1fr;gap:38px}.ece-aside{position:static}.ece-main{max-width:none}}
+.ece-wrap{max-width:1340px;margin:0 auto;padding:clamp(46px,6vw,86px) clamp(18px,4vw,30px) 90px}
+.ece-grid{display:grid;grid-template-columns:286px minmax(0,1fr) 326px;grid-template-areas:"left main right";gap:clamp(24px,3vw,46px);align-items:start}
+.ece-main{grid-area:main;min-width:0}
+.ece-aside{position:sticky;top:24px;display:flex;flex-direction:column;gap:20px}
+.ece-aside-l{grid-area:left}
+.ece-aside-r{grid-area:right}
+.ece-aside-r .ece-disc{margin:0;padding-top:0;border-top:0}@media(max-width:1180px){.ece-grid{grid-template-columns:1fr;grid-template-areas:"main" "left" "right";gap:38px}.ece-aside{position:static}}
 
 /* header / kicker as a price-tag */
 .ece-tag{display:inline-flex;align-items:center;gap:8px;font-family:system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:#f97316;padding:6px 13px 6px 12px;border-radius:4px 12px 12px 4px;position:relative;margin:0 0 18px}
@@ -301,7 +304,8 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#f97316) !important;
 
 /* byline ribbon */
 .ece-byline{display:flex;align-items:center;gap:12px;padding:14px 0;border-top:2px solid #111111;border-bottom:1px solid #e5e5e5;margin:0 0 30px}
-.ece-av{width:40px;height:40px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;font-weight:800;font-size:14px;color:#fff;background:linear-gradient(135deg,#f97316,#ea580c)}
+.ece-av{width:40px;height:40px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;font-weight:800;font-size:14px;color:#fff;background:linear-gradient(135deg,#f97316,#ea580c);position:relative;overflow:hidden}
+.ece-av img,.ece-author-av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}
 .ece-by-col{display:flex;flex-direction:column;gap:2px;min-width:0}
 .ece-by-name{font-family:system-ui,sans-serif;font-weight:700;font-size:14px;color:#111111}
 .ece-by-meta{font-size:12px;color:#666666}
@@ -335,7 +339,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#f97316) !important;
 .ece-author{padding:0}
 .ece-author-top{height:54px;background:linear-gradient(135deg,#f97316,#ea580c)}
 .ece-author-body{padding:0 18px 18px;margin-top:-28px}
-.ece-author-av{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;font-weight:800;font-size:19px;color:#fff;background:linear-gradient(135deg,#f97316,#ea580c);border:3px solid #ffffff;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.ece-author-av{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;font-weight:800;font-size:19px;color:#fff;background:linear-gradient(135deg,#f97316,#ea580c);border:3px solid #ffffff;box-shadow:0 1px 3px rgba(0,0,0,.12);position:relative;overflow:hidden}
 .ece-author-n{font-family:system-ui,sans-serif;font-size:16px;font-weight:800;color:#111111;margin:12px 0 1px}
 .ece-author-r{font-size:12.5px;font-weight:600;color:#f97316;margin:0 0 9px}
 .ece-author-b{font-size:13px;line-height:1.6;color:#444444;margin:0}
@@ -409,7 +413,7 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#f97316) !important;
   <span class="ece-tag">DTC Strategy</span>
   <h1 class="ece-h1">I Found the Ecommerce Program Nobody's Advertising. The Founder Wouldn't Hype It. Everyone Who's Ridden It Won't Stop Raving.</h1>
   <p class="ece-dek">A candid look at Kavalsia Academy, an underrated ecommerce program growing almost entirely by word of mouth. Why 'dropshipping is dead' is lazy, how modern dropshipping really works, and the train-and-wagons format the founder barely promotes.</p>
-  <div class="ece-byline"><div class="ece-av">MD</div>
+  <div class="ece-byline"><div class="ece-av">MD<img src="https://api.dicebear.com/9.x/notionists/svg?seed=Marcus%20Delaney&backgroundColor=ffd5dc,ffdfbf,d1d4f9" alt="" loading="lazy"></div>
     <div class="ece-by-col"><span class="ece-by-name">Marcus Delaney</span>
     <span class="ece-by-meta">Sep 18, 2023 &middot; <b>5 min read</b></span></div>
   </div>
@@ -430,10 +434,9 @@ body[data-page-depth="1"] article .intro a{color:var(--text,#f97316) !important;
     <div class="ece-receipt"><p>Dropshipping is not dead. The shortcut version that made it look effortless is what died, and the operators still winning are the ones who learned the current playbook in a sensible order, used the new research tools well, respected their margins, and treated the whole thing as a business. What stuck with me about Kavalsia Academy is not a flashy claim, because there isn't one. It is a humble founder in Siavash Sadighi who would rather let his graduates do the talking, and a format, the train and its wagons, that quietly fixes the one thing self-teaching never does: it puts the steps in the right order and won't let you jump ahead. The opportunity in this business is still very much here. It just belongs to operators now, and the people who find the quiet, well-built ways in before everyone else does tend to be glad they looked.</p></div>
     
   </div>
-  <section class="ece-disc" id="ece-discussion"><div class="ece-disc-head"><span class="ece-disc-k">Storefront chatter</span><span class="ece-pill" id="ece-cc">0</span></div><div id="ece-list"></div><form class="ece-form" id="ece-form"><div class="ece-form-k">Join the conversation</div><input class="ece-in" id="ece-name" placeholder="Your name" maxlength="40"><textarea class="ece-ta" id="ece-msg" placeholder="Share your take on this story" maxlength="800"></textarea><button class="ece-btn" type="submit">Post comment</button></form></section><script>(function(){var L=document.getElementById('ece-list'),CC=document.getElementById('ece-cc'),F=document.getElementById('ece-form');if(!L)return;var KEY='ecec:'+location.pathname;function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}function ini(n){n=String(n||'').trim();if(!n)return'R';var p=n.split(/\s+/);return((p[0][0]||'')+(p[1]?p[1][0]:'')).toUpperCase();}function row(c){return '<div class="ece-cm"><div class="ece-cm-av">'+esc(ini(c.name))+'</div><div><div class="ece-cm-top"><span class="ece-cm-n">'+esc(c.name||'Reader')+'</span><span class="ece-cm-d">'+esc(c.date_display||c.date_iso||'')+'</span></div><p class="ece-cm-t">'+esc(c.text||'')+'</p></div></div>';}function render(a){L.innerHTML=a.length?a.map(row).join(''):'<div class="ece-empty">No comments yet. Be the first to weigh in.</div>';if(CC)CC.textContent=a.length;}var mine=[];try{mine=JSON.parse(localStorage.getItem(KEY))||[];}catch(e){}var seed=[];fetch('./comments.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():[];}).then(function(j){seed=Array.isArray(j)?j:[];render(seed.concat(mine));}).catch(function(){render(mine);});if(F)F.addEventListener('submit',function(e){e.preventDefault();var n=document.getElementById('ece-name').value.trim(),m=document.getElementById('ece-msg').value.trim();if(!m)return;mine.push({name:n||'Reader',text:m,date_display:'just now'});try{localStorage.setItem(KEY,JSON.stringify(mine));}catch(e){}render(seed.concat(mine));F.reset();});})();</script>
   </main>
-  <aside class="ece-aside">
-  <div class="ece-card ece-author"><div class="ece-author-top"></div><div class="ece-author-body"><div class="ece-author-av">MD</div><div class="ece-author-n">Marcus Delaney</div><div class="ece-author-r">ecommerce consultant specializing in DTC brand scaling</div><p class="ece-author-b">Ecommerce Edge is where I share the tactics, data, and frameworks that actually move conversion rates. No vanity metrics, no generic advice.</p></div></div>
+  <aside class="ece-aside ece-aside-l">
+  <div class="ece-card ece-author"><div class="ece-author-top"></div><div class="ece-author-body"><div class="ece-author-av">MD<img src="https://api.dicebear.com/9.x/notionists/svg?seed=Marcus%20Delaney&backgroundColor=ffd5dc,ffdfbf,d1d4f9" alt="Marcus Delaney" loading="lazy"></div><div class="ece-author-n">Marcus Delaney</div><div class="ece-author-r">ecommerce consultant specializing in DTC brand scaling</div><p class="ece-author-b">Ecommerce Edge is where I share the tactics, data, and frameworks that actually move conversion rates. No vanity metrics, no generic advice.</p></div></div>
   <div class="ece-shelf"><div class="ece-shelf-k">On the shelf</div>
 <div id="ece-shelf-list"></div>
 <a class="ece-viewall" href="../articles/">Browse all articles &rarr;</a></div>
@@ -449,6 +452,9 @@ a=a.filter(function(p){return (p.slug||'')!==here;}).slice(0,5);
 L.innerHTML=a.map(function(p){return '<a class="ece-lat" href="../'+encodeURIComponent(p.slug||'')+'/"><img class="ece-lat-img" loading="lazy" alt="" src="'+esc(p.image||FB)+'"><div><p class="ece-lat-t">'+esc(p.title||'Untitled')+'</p><div class="ece-lat-d">'+esc(p.date_iso||'')+'</div></div></a>';}).join('');
 }).catch(function(){});
 })();</script>
+  </aside>
+  <aside class="ece-aside ece-aside-r">
+  <section class="ece-disc" id="ece-discussion"><div class="ece-disc-head"><span class="ece-disc-k">Storefront chatter</span><span class="ece-pill" id="ece-cc">0</span></div><div id="ece-list"></div><form class="ece-form" id="ece-form"><div class="ece-form-k">Join the conversation</div><input class="ece-in" id="ece-name" placeholder="Your name" maxlength="40"><textarea class="ece-ta" id="ece-msg" placeholder="Share your take on this story" maxlength="800"></textarea><button class="ece-btn" type="submit">Post comment</button></form></section><script>(function(){var L=document.getElementById('ece-list'),CC=document.getElementById('ece-cc'),F=document.getElementById('ece-form');if(!L)return;var KEY='ecec:'+location.pathname;function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}function ini(n){n=String(n||'').trim();if(!n)return'R';var p=n.split(/\s+/);return((p[0][0]||'')+(p[1]?p[1][0]:'')).toUpperCase();}function row(c){return '<div class="ece-cm"><div class="ece-cm-av">'+esc(ini(c.name))+'</div><div><div class="ece-cm-top"><span class="ece-cm-n">'+esc(c.name||'Reader')+'</span><span class="ece-cm-d">'+esc(c.date_display||c.date_iso||'')+'</span></div><p class="ece-cm-t">'+esc(c.text||'')+'</p></div></div>';}function render(a){L.innerHTML=a.length?a.map(row).join(''):'<div class="ece-empty">No comments yet. Be the first to weigh in.</div>';if(CC)CC.textContent=a.length;}var mine=[];try{mine=JSON.parse(localStorage.getItem(KEY))||[];}catch(e){}var seed=[];fetch('./comments.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():[];}).then(function(j){seed=Array.isArray(j)?j:[];render(seed.concat(mine));}).catch(function(){render(mine);});if(F)F.addEventListener('submit',function(e){e.preventDefault();var n=document.getElementById('ece-name').value.trim(),m=document.getElementById('ece-msg').value.trim();if(!m)return;mine.push({name:n||'Reader',text:m,date_display:'just now'});try{localStorage.setItem(KEY,JSON.stringify(mine));}catch(e){}render(seed.concat(mine));F.reset();});})();</script>
   </aside>
 </div></div></div></article>
 <footer class="foot">
