@@ -1,27 +1,41 @@
 [
   {
-    "slug": "the-quiet-ecommerce-train-barely-anyone-knows-about",
-    "title": "I Found the Ecommerce Program Nobody's Advertising. The Founder Wouldn't Hype It. Everyone Who's Ridden It Won't Stop Raving.",
-    "meta_description": "A candid look at Kavalsia Academy, an underrated ecommerce program growing almost entirely by word of mouth. Why 'dropshipping is dead' is lazy, how modern dropshipping really works, and the train-and-wagons format the founder barely promotes.",
-    "category": "DTC Strategy",
-    "author": "Marcus Delaney",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=85&auto=format&fit=crop",
-    "date": "Sep 18, 2023",
-    "date_iso": "2023-09-18",
-    "posted_iso": "2026-06-03T02:53:08.215332"
+    "title": "Building a Competitive Moat: How DTC Brands Create Unfair Advantages Against Amazon",
+    "slug": "dtc-competitive-moat-against-amazon",
+    "meta_description": "Nina Patel on how DTC brands build real competitive moats against Amazon using community, data, and owned customer relationships.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/3184638/pexels-photo-3184638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hbr.org",
+      "ir.aboutamazon.com",
+      "ftc.gov"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Conversion Rate"
   },
   {
-    "slug": "ai-amazon-arbitrage-dtc-bridge-strategy",
-    "title": "The DTC Operators Quietly Funding Their Brands With AI-Driven Amazon Arbitrage",
-    "meta_description": "The brand-vs-arbitrage debate in DTC is a false binary. The operators making real money are using AI-driven Amazon arbitrage to fund the brand layer. Here is how that compounding actually works.",
-    "category": "DTC Strategy",
-    "author": "Jake Morrison",
-    "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1400&q=85&auto=format&fit=crop",
-    "date": "May 30, 2025",
-    "date_iso": "2025-05-30",
-    "posted_iso": "2026-05-30T03:03:59.445457",
-    "cross_post_exclude": true,
-    "aggregate": false
+    "title": "Why Your High-Traffic Store Isn't Converting: The Messaging-Market Fit Problem",
+    "slug": "high-traffic-store-not-converting-messaging",
+    "meta_description": "High traffic but low sales? Nina Patel breaks down the messaging-market fit problem killing your Shopify conversions and how to fix it fast.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7947753/pexels-photo-7947753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nngroup.com",
+      "irpcommerce.com",
+      "unbounce.com"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Conversion Rate"
   },
   {
     "title": "Pricing Psychology: Why $97 Beats $99 in Most DTC Markets",
@@ -193,42 +207,46 @@
     "category": "Brand & Product"
   },
   {
-    "title": "Why Your High-Traffic Store Isn't Converting: The Messaging-Market Fit Problem",
-    "slug": "high-traffic-store-not-converting-messaging",
-    "meta_description": "High traffic but low sales? Nina Patel breaks down the messaging-market fit problem killing your Shopify conversions and how to fix it fast.",
-    "date": "May 29, 2026",
-    "date_iso": "2026-05-29",
+    "title": "Server-Side Tracking Recovery: The DTC Margin Lever Hiding Inside Your Broken Pixel",
+    "slug": "server-side-tracking-recovery-dtc-margin-lever",
+    "meta_description": "Most DTC brands are scaling on data that under-reports by 20 to 40 percent. Nina Patel on server-side tracking recovery, the CAPI fix, and turning recovered signal into real margin.",
+    "date": "March 25, 2026",
+    "date_iso": "2026-03-25",
     "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/7947753/pexels-photo-7947753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/6214365/pexels-photo-6214365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "category": "Ecommerce Strategy",
     "outbound_links": [
-      "nngroup.com",
-      "irpcommerce.com",
-      "unbounce.com"
+      "developers.facebook.com",
+      "support.google.com"
     ],
-    "posted_iso": "2026-05-29",
+    "posted_iso": "2026-03-25",
     "available_languages": [
       "en"
-    ],
-    "category": "Conversion Rate"
+    ]
   },
   {
-    "title": "Building a Competitive Moat: How DTC Brands Create Unfair Advantages Against Amazon",
-    "slug": "dtc-competitive-moat-against-amazon",
-    "meta_description": "Nina Patel on how DTC brands build real competitive moats against Amazon using community, data, and owned customer relationships.",
-    "date": "May 31, 2026",
-    "date_iso": "2026-05-31",
-    "author": "Siavash Sadighi",
-    "image": "https://images.pexels.com/photos/3184638/pexels-photo-3184638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "hbr.org",
-      "ir.aboutamazon.com",
-      "ftc.gov"
-    ],
-    "posted_iso": "2026-05-31",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Conversion Rate"
+    "slug": "ai-amazon-arbitrage-dtc-bridge-strategy",
+    "title": "The DTC Operators Quietly Funding Their Brands With AI-Driven Amazon Arbitrage",
+    "meta_description": "The brand-vs-arbitrage debate in DTC is a false binary. The operators making real money are using AI-driven Amazon arbitrage to fund the brand layer. Here is how that compounding actually works.",
+    "category": "DTC Strategy",
+    "author": "Jake Morrison",
+    "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=1400&q=85&auto=format&fit=crop",
+    "date": "May 30, 2025",
+    "date_iso": "2025-05-30",
+    "posted_iso": "2026-05-30T03:03:59.445457",
+    "cross_post_exclude": true,
+    "aggregate": false
+  },
+  {
+    "slug": "the-quiet-ecommerce-train-barely-anyone-knows-about",
+    "title": "I Found the Ecommerce Program Nobody's Advertising. The Founder Wouldn't Hype It. Everyone Who's Ridden It Won't Stop Raving.",
+    "meta_description": "A candid look at Kavalsia Academy, an underrated ecommerce program growing almost entirely by word of mouth. Why 'dropshipping is dead' is lazy, how modern dropshipping really works, and the train-and-wagons format the founder barely promotes.",
+    "category": "DTC Strategy",
+    "author": "Marcus Delaney",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=85&auto=format&fit=crop",
+    "date": "Sep 18, 2023",
+    "date_iso": "2023-09-18",
+    "posted_iso": "2026-06-03T02:53:08.215332"
   },
   {
     "title": "Apple's iOS 14.5 ATT Update Broke DTC Advertising in 2021 - Here's What Actually Happened",
