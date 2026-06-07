@@ -267,5 +267,41 @@
       "en"
     ],
     "category": "Paid Acquisition"
+  },
+  {
+    "title": "Return and Refund Policies That Increase Sales Instead of Cannibalizing Margins",
+    "slug": "return-refund-policies-increase-sales",
+    "meta_description": "Learn how smart return and refund policies actually drive more sales for DTC brands without destroying your margins. Tactical advice from a Shopify expert.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7843958/pexels-photo-7843958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nrf.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Meta's Advantage+ Shopping Campaigns Rewrote DTC Ad Strategy in 2023. Here's What Actually Happened.",
+    "slug": "meta-advantage-plus-dtc-2023",
+    "meta_description": "Meta's Advantage+ Shopping Campaigns dominated DTC ad strategy in 2023. Nina Patel breaks down what worked, what didn't, and what it means for your brand.",
+    "date": "April 05, 2023",
+    "date_iso": "2023-04-05",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/37495808/pexels-photo-37495808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "facebook.com",
+      "socialinsider.io",
+      "modernretail.co"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
