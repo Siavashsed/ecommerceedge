@@ -303,5 +303,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Apple's ATT Killed Your Facebook ROAS in 2021. Here's What Actually Happened.",
+    "slug": "apple-att-2021-facebook-roas-dtc",
+    "meta_description": "Apple's App Tracking Transparency hit DTC brands hard in 2021. Nina Patel breaks down what really happened to ad performance and what it meant for ecommerce.",
+    "date": "January 01, 2021",
+    "date_iso": "2021-01-01",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/5831516/pexels-photo-5831516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "flurry.com",
+      "appsflyer.com"
+    ],
+    "posted_iso": "2026-06-09",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
