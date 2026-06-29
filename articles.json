@@ -321,5 +321,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Shopify Just Built Its Own Ad Network. Here's Why DTC Brands Should Care",
+    "slug": "shopify-audiences-launch-2022",
+    "meta_description": "Shopify Audiences launched in 2022 to fix the targeting mess Apple's ATT left behind. What it does, who it helps, and where it falls short.",
+    "date": "September 14, 2022",
+    "date_iso": "2022-09-14",
+    "author": "Nina Patel",
+    "image": "",
+    "outbound_links": [
+      "cnbc.com",
+      "adjust.com"
+    ],
+    "posted_iso": "2026-06-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
