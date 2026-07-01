@@ -339,5 +339,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Shopify Store Converts at 1.4%. Here's What's Actually Killing It",
+    "slug": "shopify-conversion-rate-no-ads",
+    "meta_description": "Nina Patel on the real reasons Shopify stores underperform, and the no-ad tactics that moved conversion rates from 1.4% to 4.1% in 90 days.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/6331238/pexels-photo-6331238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nngroup.com",
+      "portent.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
