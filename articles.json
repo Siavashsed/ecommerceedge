@@ -356,5 +356,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Product Page Elements Quietly Killing Your Conversions",
+    "slug": "product-page-elements-killing-conversions",
+    "meta_description": "Product page elements that kill conversions, with real examples from 50+ Shopify stores and the fixes that actually moved the numbers.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Aisha Williams",
+    "image": "https://images.pexels.com/photos/33714930/pexels-photo-33714930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "thinkwithgoogle.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Shopify's checkout.liquid Deadline Is Here and Most Plus Stores Aren't Ready",
+    "slug": "shopify-checkout-liquid-deadline-2024",
+    "meta_description": "Shopify sunsets checkout.liquid on August 13, 2024. What the checkout extensibility switch means for Plus conversion rates, and how to migrate without breaking sales.",
+    "date": "January 11, 2024",
+    "date_iso": "2024-01-11",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/205420/pexels-photo-205420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "shopify.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
