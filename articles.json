@@ -408,5 +408,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Why $97 Outsells $99 and When Both Numbers Fail",
+    "slug": "why-97-outsells-99",
+    "meta_description": "Tested across 50 Shopify stores: why $97 beats $99 on conversion, where round numbers win instead, and how to test price endings without breaking trust.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Theo Bramhall",
+    "image": "https://images.pexels.com/photos/33214228/pexels-photo-33214228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "academic.oup.com",
+      "link.springer.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
