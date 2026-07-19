@@ -443,5 +443,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Factories Will Sell You 40 Units. You Have to Ask Right.",
+    "slug": "source-products-without-minimum-orders",
+    "meta_description": "You can source products from manufacturers without minimum orders. Here is how I get factories to break their own MOQs, plus the margin math.",
+    "date": "July 19, 2026",
+    "date_iso": "2026-07-19",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-07-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
