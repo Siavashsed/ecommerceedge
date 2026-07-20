@@ -460,5 +460,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "TikTok Shop Is Winning Checkout. Instagram Still Wins the Sale.",
+    "slug": "tiktok-shop-vs-instagram-shopping-2025",
+    "meta_description": "TikTok Shop vs Instagram Shopping in 2025: real GMV numbers, margin math, and how I split budget across both for DTC brands I actually run.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/12673988/pexels-photo-12673988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "statista.com",
+      "about.fb.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Google Killed the Cookie Deadline. DTC Brands Overbuilt Anyway.",
+    "slug": "google-cookie-reversal-dtc-measurement",
+    "meta_description": "Google reversed third-party cookie deprecation in July 2024. Here's what it meant for DTC measurement, and why the prep work still paid off.",
+    "date": "November 13, 2024",
+    "date_iso": "2024-11-13",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/5717724/pexels-photo-5717724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "privacysandbox.com",
+      "baymard.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
