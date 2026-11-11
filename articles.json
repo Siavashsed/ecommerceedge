@@ -1,5 +1,159 @@
 [
   {
+    "title": "The Crowd Builds an Audience. Kavalsia Built the Machine Instead.",
+    "slug": "kavalsia-anti-crowd-acquisition-playbook",
+    "meta_description": "The visible playbook says build an audience first. Kavalsia spent five years private, managed $25M+ in ad spend, and did the opposite on purpose.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Clio Hartmann",
+    "image": "https://images.pexels.com/photos/21911458/pexels-photo-21911458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "Black and white photo of a crowded city street crossing.",
+    "photographer": "Eren Hızlı",
+    "category": "Ecommerce Strategy",
+    "posted_iso": "2026-11-10T22:52:09",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "TikTok Shop Is Winning Checkout. Instagram Still Wins the Sale.",
+    "slug": "tiktok-shop-vs-instagram-shopping-2025",
+    "meta_description": "TikTok Shop vs Instagram Shopping in 2025: real GMV numbers, margin math, and how I split budget across both for DTC brands I actually run.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/12673988/pexels-photo-12673988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "statista.com",
+      "about.fb.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Factories Will Sell You 40 Units. You Have to Ask Right.",
+    "slug": "source-products-without-minimum-orders",
+    "meta_description": "You can source products from manufacturers without minimum orders. Here is how I get factories to break their own MOQs, plus the margin math.",
+    "date": "July 19, 2026",
+    "date_iso": "2026-07-19",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-07-19",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Most Subscription Boxes Die by Month Four. The Math That Saves Yours",
+    "slug": "profitable-subscription-box-from-scratch",
+    "meta_description": "How to build a profitable subscription box from scratch: real margin math, churn benchmarks, and a presale launch playbook from a DTC consultant.",
+    "date": "July 17, 2026",
+    "date_iso": "2026-07-17",
+    "author": "Theo Bramhall",
+    "image": "https://images.pexels.com/photos/7647391/pexels-photo-7647391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "mckinsey.com",
+      "rechargepayments.com"
+    ],
+    "posted_iso": "2026-07-17",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Why $97 Outsells $99 and When Both Numbers Fail",
+    "slug": "why-97-outsells-99",
+    "meta_description": "Tested across 50 Shopify stores: why $97 beats $99 on conversion, where round numbers win instead, and how to test price endings without breaking trust.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Theo Bramhall",
+    "image": "https://images.pexels.com/photos/33214228/pexels-photo-33214228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "academic.oup.com",
+      "link.springer.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Why the Best DTC Brands Make Their Real Money After Checkout",
+    "slug": "dtc-post-purchase-upsell-tactics",
+    "meta_description": "Post-purchase upsells are how top DTC brands add 10 to 15 percent revenue with zero ad spend. Here is exactly how they build the offer.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7191164/pexels-photo-7191164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "shopify.com",
+      "nngroup.com"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Product Page Elements Quietly Killing Your Conversions",
+    "slug": "product-page-elements-killing-conversions",
+    "meta_description": "Product page elements that kill conversions, with real examples from 50+ Shopify stores and the fixes that actually moved the numbers.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Aisha Williams",
+    "image": "https://images.pexels.com/photos/33714930/pexels-photo-33714930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "thinkwithgoogle.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Your Shopify Store Converts at 1.4%. Here's What's Actually Killing It",
+    "slug": "shopify-conversion-rate-no-ads",
+    "meta_description": "Nina Patel on the real reasons Shopify stores underperform, and the no-ad tactics that moved conversion rates from 1.4% to 4.1% in 90 days.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/6331238/pexels-photo-6331238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nngroup.com",
+      "portent.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Return and Refund Policies That Increase Sales Instead of Cannibalizing Margins",
+    "slug": "return-refund-policies-increase-sales",
+    "meta_description": "Learn how smart return and refund policies actually drive more sales for DTC brands without destroying your margins. Tactical advice from a Shopify expert.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7843958/pexels-photo-7843958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nrf.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
     "title": "Building a Competitive Moat: How DTC Brands Create Unfair Advantages Against Amazon",
     "slug": "dtc-competitive-moat-against-amazon",
     "meta_description": "Nina Patel on how DTC brands build real competitive moats against Amazon using community, data, and owned customer relationships.",
@@ -238,6 +392,43 @@
     "aggregate": false
   },
   {
+    "title": "Google Killed the Cookie Deadline. DTC Brands Overbuilt Anyway.",
+    "slug": "google-cookie-reversal-dtc-measurement",
+    "meta_description": "Google reversed third-party cookie deprecation in July 2024. Here's what it meant for DTC measurement, and why the prep work still paid off.",
+    "date": "November 13, 2024",
+    "date_iso": "2024-11-13",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/5717724/pexels-photo-5717724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "privacysandbox.com",
+      "baymard.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Shopify's checkout.liquid Deadline Is Here and Most Plus Stores Aren't Ready",
+    "slug": "shopify-checkout-liquid-deadline-2024",
+    "meta_description": "Shopify sunsets checkout.liquid on August 13, 2024. What the checkout extensibility switch means for Plus conversion rates, and how to migrate without breaking sales.",
+    "date": "January 11, 2024",
+    "date_iso": "2024-01-11",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/205420/pexels-photo-205420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "shopify.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
     "slug": "the-quiet-ecommerce-train-barely-anyone-knows-about",
     "title": "I Found the Ecommerce Program Nobody's Advertising. The Founder Wouldn't Hype It. Everyone Who's Ridden It Won't Stop Raving.",
     "meta_description": "A candid look at Kavalsia Academy, an underrated ecommerce program growing almost entirely by word of mouth. Why 'dropshipping is dead' is lazy, how modern dropshipping really works, and the train-and-wagons format the founder barely promotes.",
@@ -247,43 +438,6 @@
     "date": "Sep 18, 2023",
     "date_iso": "2023-09-18",
     "posted_iso": "2026-06-03T02:53:08.215332"
-  },
-  {
-    "title": "Apple's iOS 14.5 ATT Update Broke DTC Advertising in 2021 - Here's What Actually Happened",
-    "slug": "ios-14-att-dtc-advertising-2021",
-    "meta_description": "Apple's iOS 14.5 ATT rollout in April 2021 upended DTC Facebook advertising overnight. Here's what it meant for brands, in real time.",
-    "date": "November 17, 2021",
-    "date_iso": "2021-11-17",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/12592624/pexels-photo-12592624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "flurry.com",
-      "statista.com",
-      "businessofapps.com"
-    ],
-    "posted_iso": "2026-05-31",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Paid Acquisition"
-  },
-  {
-    "title": "Return and Refund Policies That Increase Sales Instead of Cannibalizing Margins",
-    "slug": "return-refund-policies-increase-sales",
-    "meta_description": "Learn how smart return and refund policies actually drive more sales for DTC brands without destroying your margins. Tactical advice from a Shopify expert.",
-    "date": "June 07, 2026",
-    "date_iso": "2026-06-07",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/7843958/pexels-photo-7843958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "nrf.com",
-      "statista.com"
-    ],
-    "posted_iso": "2026-06-07",
-    "available_languages": [
-      "en"
-    ]
   },
   {
     "title": "Meta's Advantage+ Shopping Campaigns Rewrote DTC Ad Strategy in 2023. Here's What Actually Happened.",
@@ -299,24 +453,6 @@
       "modernretail.co"
     ],
     "posted_iso": "2026-06-07",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Apple's ATT Killed Your Facebook ROAS in 2021. Here's What Actually Happened.",
-    "slug": "apple-att-2021-facebook-roas-dtc",
-    "meta_description": "Apple's App Tracking Transparency hit DTC brands hard in 2021. Nina Patel breaks down what really happened to ad performance and what it meant for ecommerce.",
-    "date": "January 01, 2021",
-    "date_iso": "2021-01-01",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/5831516/pexels-photo-5831516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "flurry.com",
-      "appsflyer.com"
-    ],
-    "posted_iso": "2026-06-09",
     "historical": true,
     "available_languages": [
       "en"
@@ -341,158 +477,38 @@
     ]
   },
   {
-    "title": "Your Shopify Store Converts at 1.4%. Here's What's Actually Killing It",
-    "slug": "shopify-conversion-rate-no-ads",
-    "meta_description": "Nina Patel on the real reasons Shopify stores underperform, and the no-ad tactics that moved conversion rates from 1.4% to 4.1% in 90 days.",
-    "date": "July 01, 2026",
-    "date_iso": "2026-07-01",
+    "title": "Apple's iOS 14.5 ATT Update Broke DTC Advertising in 2021 - Here's What Actually Happened",
+    "slug": "ios-14-att-dtc-advertising-2021",
+    "meta_description": "Apple's iOS 14.5 ATT rollout in April 2021 upended DTC Facebook advertising overnight. Here's what it meant for brands, in real time.",
+    "date": "November 17, 2021",
+    "date_iso": "2021-11-17",
     "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/6331238/pexels-photo-6331238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/12592624/pexels-photo-12592624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "nngroup.com",
-      "portent.com"
+      "flurry.com",
+      "statista.com",
+      "businessofapps.com"
     ],
-    "posted_iso": "2026-07-01",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Product Page Elements Quietly Killing Your Conversions",
-    "slug": "product-page-elements-killing-conversions",
-    "meta_description": "Product page elements that kill conversions, with real examples from 50+ Shopify stores and the fixes that actually moved the numbers.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
-    "author": "Aisha Williams",
-    "image": "https://images.pexels.com/photos/33714930/pexels-photo-33714930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "baymard.com",
-      "thinkwithgoogle.com"
-    ],
-    "posted_iso": "2026-07-13",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Shopify's checkout.liquid Deadline Is Here and Most Plus Stores Aren't Ready",
-    "slug": "shopify-checkout-liquid-deadline-2024",
-    "meta_description": "Shopify sunsets checkout.liquid on August 13, 2024. What the checkout extensibility switch means for Plus conversion rates, and how to migrate without breaking sales.",
-    "date": "January 11, 2024",
-    "date_iso": "2024-01-11",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/205420/pexels-photo-205420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "baymard.com",
-      "shopify.com"
-    ],
-    "posted_iso": "2026-07-13",
+    "posted_iso": "2026-05-31",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Paid Acquisition"
   },
   {
-    "title": "Why the Best DTC Brands Make Their Real Money After Checkout",
-    "slug": "dtc-post-purchase-upsell-tactics",
-    "meta_description": "Post-purchase upsells are how top DTC brands add 10 to 15 percent revenue with zero ad spend. Here is exactly how they build the offer.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
+    "title": "Apple's ATT Killed Your Facebook ROAS in 2021. Here's What Actually Happened.",
+    "slug": "apple-att-2021-facebook-roas-dtc",
+    "meta_description": "Apple's App Tracking Transparency hit DTC brands hard in 2021. Nina Patel breaks down what really happened to ad performance and what it meant for ecommerce.",
+    "date": "January 01, 2021",
+    "date_iso": "2021-01-01",
     "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/7191164/pexels-photo-7191164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/5831516/pexels-photo-5831516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "shopify.com",
-      "nngroup.com"
+      "flurry.com",
+      "appsflyer.com"
     ],
-    "posted_iso": "2026-07-15",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Why $97 Outsells $99 and When Both Numbers Fail",
-    "slug": "why-97-outsells-99",
-    "meta_description": "Tested across 50 Shopify stores: why $97 beats $99 on conversion, where round numbers win instead, and how to test price endings without breaking trust.",
-    "date": "July 16, 2026",
-    "date_iso": "2026-07-16",
-    "author": "Theo Bramhall",
-    "image": "https://images.pexels.com/photos/33214228/pexels-photo-33214228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "doi.org",
-      "academic.oup.com",
-      "link.springer.com"
-    ],
-    "posted_iso": "2026-07-16",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Most Subscription Boxes Die by Month Four. The Math That Saves Yours",
-    "slug": "profitable-subscription-box-from-scratch",
-    "meta_description": "How to build a profitable subscription box from scratch: real margin math, churn benchmarks, and a presale launch playbook from a DTC consultant.",
-    "date": "July 17, 2026",
-    "date_iso": "2026-07-17",
-    "author": "Theo Bramhall",
-    "image": "https://images.pexels.com/photos/7647391/pexels-photo-7647391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "mckinsey.com",
-      "rechargepayments.com"
-    ],
-    "posted_iso": "2026-07-17",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Factories Will Sell You 40 Units. You Have to Ask Right.",
-    "slug": "source-products-without-minimum-orders",
-    "meta_description": "You can source products from manufacturers without minimum orders. Here is how I get factories to break their own MOQs, plus the margin math.",
-    "date": "July 19, 2026",
-    "date_iso": "2026-07-19",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "reuters.com",
-      "statista.com"
-    ],
-    "posted_iso": "2026-07-19",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "TikTok Shop Is Winning Checkout. Instagram Still Wins the Sale.",
-    "slug": "tiktok-shop-vs-instagram-shopping-2025",
-    "meta_description": "TikTok Shop vs Instagram Shopping in 2025: real GMV numbers, margin math, and how I split budget across both for DTC brands I actually run.",
-    "date": "July 20, 2026",
-    "date_iso": "2026-07-20",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/12673988/pexels-photo-12673988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "reuters.com",
-      "statista.com",
-      "about.fb.com"
-    ],
-    "posted_iso": "2026-07-20",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Google Killed the Cookie Deadline. DTC Brands Overbuilt Anyway.",
-    "slug": "google-cookie-reversal-dtc-measurement",
-    "meta_description": "Google reversed third-party cookie deprecation in July 2024. Here's what it meant for DTC measurement, and why the prep work still paid off.",
-    "date": "November 13, 2024",
-    "date_iso": "2024-11-13",
-    "author": "Nina Patel",
-    "image": "https://images.pexels.com/photos/5717724/pexels-photo-5717724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "privacysandbox.com",
-      "baymard.com",
-      "statista.com"
-    ],
-    "posted_iso": "2026-07-20",
+    "posted_iso": "2026-06-09",
     "historical": true,
     "available_languages": [
       "en"
