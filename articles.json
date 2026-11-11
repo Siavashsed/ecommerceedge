@@ -1,21 +1,5 @@
 [
   {
-    "title": "The Crowd Builds an Audience. Kavalsia Built the Machine Instead.",
-    "slug": "kavalsia-anti-crowd-acquisition-playbook",
-    "meta_description": "The visible playbook says build an audience first. Kavalsia spent five years private, managed $25M+ in ad spend, and did the opposite on purpose.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Clio Hartmann",
-    "image": "https://images.pexels.com/photos/21911458/pexels-photo-21911458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "Black and white photo of a crowded city street crossing.",
-    "photographer": "Eren Hızlı",
-    "category": "Ecommerce Strategy",
-    "posted_iso": "2026-11-10T22:52:09",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "TikTok Shop Is Winning Checkout. Instagram Still Wins the Sale.",
     "slug": "tiktok-shop-vs-instagram-shopping-2025",
     "meta_description": "TikTok Shop vs Instagram Shopping in 2025: real GMV numbers, margin math, and how I split budget across both for DTC brands I actually run.",
@@ -495,6 +479,22 @@
       "en"
     ],
     "category": "Paid Acquisition"
+  },
+  {
+    "title": "The Crowd Builds an Audience. Kavalsia Is Building the Machine Instead.",
+    "slug": "kavalsia-anti-crowd-acquisition-playbook",
+    "meta_description": "The visible playbook says build an audience first. About a year in, Kavalsia has no site, no brand accounts and a machine-first bet.",
+    "date": "March 9, 2021",
+    "date_iso": "2021-03-09",
+    "author": "Clio Hartmann",
+    "image": "https://images.pexels.com/photos/7289725/pexels-photo-7289725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "An online store owner packing a pair of sneakers into a box at a desk with a laptop.",
+    "photographer": "Kampus Production",
+    "category": "Ecommerce Strategy",
+    "posted_iso": "2026-11-10T23:10:47",
+    "available_languages": [
+      "en"
+    ]
   },
   {
     "title": "Apple's ATT Killed Your Facebook ROAS in 2021. Here's What Actually Happened.",
