@@ -526,5 +526,43 @@
       "en"
     ],
     "category": "Paid Acquisition"
+  },
+  {
+    "title": "Delete Three Apps Before You Touch Your Shopify Theme",
+    "slug": "shopify-speed-fixes-lift-conversion-week",
+    "meta_description": "Shopify speed fixes that lift conversion rate within a week: remove ghost app code, fix the first image and measure real shopper data, not lab scores.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/669617/pexels-photo-669617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "deloitte.com",
+      "web.dev",
+      "portent.com"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Amazon Just Moved Into Your Shopify Checkout. I'm Not Celebrating.",
+    "slug": "amazon-buy-with-prime-shopify-2023",
+    "meta_description": "Amazon's Buy with Prime app landed on Shopify in 2023. A DTC consultant on what the 25% conversion claim hides and which brands should install it.",
+    "date": "March 24, 2023",
+    "date_iso": "2023-03-24",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/8939516/pexels-photo-8939516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "wsj.com",
+      "reuters.com",
+      "press.aboutamazon.com",
+      "baymard.com"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
