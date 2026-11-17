@@ -581,5 +581,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Bundles Are Discounting Sales You Had Already Won",
+    "slug": "product-bundle-strategy-average-order-value",
+    "meta_description": "A product bundle strategy that raises average order value starts with order data, prices the add-on and not the cart, and keeps choices few.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/8250903/pexels-photo-8250903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "psycnet.apa.org"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
