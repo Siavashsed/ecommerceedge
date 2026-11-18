@@ -598,5 +598,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Best Month Is When Stockouts Hit. Forecast for Growth",
+    "slug": "dtc-inventory-forecasting-avoid-stockouts",
+    "meta_description": "Inventory forecasting for DTC brands in rapid growth: why trailing averages fail and how to plan reorders on growth rate so you avoid stockouts.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/6169033/pexels-photo-6169033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hbr.org",
+      "ihlservices.com"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
