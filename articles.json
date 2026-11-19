@@ -615,5 +615,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Best Seller Will Stock Out Twice Before You Fix Forecasting",
+    "slug": "dtc-inventory-forecasting-stockouts-dead-stock",
+    "meta_description": "Inventory forecasting for DTC brands: rebuild demand from in-stock days, plan for real lead times and pick a dead stock exit before you place the PO.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7019210/pexels-photo-7019210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hbr.org",
+      "ihlservices.com"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
