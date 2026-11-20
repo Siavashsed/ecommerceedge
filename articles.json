@@ -632,5 +632,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Site Search Box Is Quietly Costing You Your Best Customers",
+    "slug": "ecommerce-site-search-optimization-browsers-buyers",
+    "meta_description": "Most stores treat site search as an afterthought. Here's how to fix zero-result queries, synonyms and ranking so browsers actually become buyers.",
+    "date": "November 20, 2026",
+    "date_iso": "2026-11-20",
+    "author": "Jake Morrison",
+    "image": "https://images.pexels.com/photos/6238102/pexels-photo-6238102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "help.shopify.com",
+      "econsultancy.com"
+    ],
+    "posted_iso": "2026-11-20",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
