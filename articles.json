@@ -667,5 +667,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Return Rate Is Mostly a Product Page Problem",
+    "slug": "ecommerce-returns-strategy-reduce-return-rates",
+    "meta_description": "Ecommerce returns strategy that cuts return rates without wrecking trust: fix reason codes, product pages and exchanges before you tighten any policy.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7309306/pexels-photo-7309306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nrf.com"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Shopify Magic Landed in July 2023 and Most Merchants Used It Wrong",
+    "slug": "shopify-magic-summer-23-edition-retrospective",
+    "meta_description": "Shopify's Summer '23 Edition put free AI copy in every admin. What it changed, what it didn't, and where merchants wasted the gain.",
+    "date": "January 28, 2023",
+    "date_iso": "2023-01-28",
+    "author": "Pia Holzer",
+    "image": "https://images.pexels.com/photos/7620571/pexels-photo-7620571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "shopify.com",
+      "baymard.com"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
