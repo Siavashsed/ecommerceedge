@@ -702,5 +702,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your First International Market Should Be Boring, Not Exciting",
+    "slug": "expanding-dtc-brand-internationally-checklist",
+    "meta_description": "Expanding a DTC brand internationally works best one market at a time. Here's the shipping, duties and compliance checklist I use before any launch.",
+    "date": "November 23, 2026",
+    "date_iso": "2026-11-23",
+    "author": "Theo Bramhall",
+    "image": "https://images.pexels.com/photos/6170156/pexels-photo-6170156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "taxation-customs.ec.europa.eu",
+      "cbp.gov",
+      "gdpr.eu"
+    ],
+    "posted_iso": "2026-11-23",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
