@@ -721,5 +721,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your $1M Store Needs Different Fixes Than Your $10M One",
+    "slug": "dtc-scaling-roadmap-1m-5m-10m",
+    "meta_description": "The DTC scaling roadmap: what to fix at $1M, $5M, and $10M in revenue, from conversion leaks to retention to team structure, from a Shopify Plus builder.",
+    "date": "November 24, 2026",
+    "date_iso": "2026-11-24",
+    "author": "Jake Morrison",
+    "image": "https://images.pexels.com/photos/7289716/pexels-photo-7289716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "deloitte.com",
+      "bain.com"
+    ],
+    "posted_iso": "2026-11-24",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
