@@ -756,5 +756,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Product Page Has a Slow Hero Image and a Hidden Shipping Fee",
+    "slug": "product-page-elements-that-kill-conversions",
+    "meta_description": "The product page elements that kill conversions, with real examples from stores I've launched: slow media, buried costs, weak reviews and clutter.",
+    "date": "November 26, 2026",
+    "date_iso": "2026-11-26",
+    "author": "Nina Patel",
+    "image": "https://images.pexels.com/photos/7993400/pexels-photo-7993400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "deloitte.com",
+      "spiegel.medill.northwestern.edu"
+    ],
+    "posted_iso": "2026-11-26",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
