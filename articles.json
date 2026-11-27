@@ -774,5 +774,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Three Emails, Not Seven: The Abandoned Cart Flow That Wins Back 15%",
+    "slug": "email-sequence-recover-abandoned-carts",
+    "meta_description": "An email automation sequence that recovers 15% of abandoned carts takes three emails, a 60-minute first send, and a discount held back until the last one.",
+    "date": "November 27, 2026",
+    "date_iso": "2026-11-27",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/30029724/pexels-photo-30029724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "baymard.com",
+      "klaviyo.com"
+    ],
+    "posted_iso": "2026-11-27",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
